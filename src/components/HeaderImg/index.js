@@ -1,6 +1,6 @@
 import './style.css';
 import React, { Component } from 'react';
-import headImg from '../../assets/images/header-img.svg';
+import headImg from '../../assets/images/header-img.jpg';
 
 
 class Header extends Component {
@@ -10,16 +10,16 @@ class Header extends Component {
         <a name={this.props.name} id={this.props.name}> </a>
         <div className="Header-img-bottom">
           <div className="Header-img-item animated bounceIn">
-            <div>MAXSim仿真平台</div>
             <div>MAXSim</div>
+            <div>仿真平台</div>
           </div>
           <div className="Header-img-item animated bounceIn">
-            <div>MagicBook虚拟仿真平台</div>
-            <div>综合模拟训练系统</div>
+            <div>MagicBook</div>
+            <div>虚拟仿真平台</div>
           </div>
           <div className="Header-img-item animated bounceIn">
-            <div>MagiclETM交互式电子手册平台</div>
-            <div>交互式技术手册开发平台</div>
+            <div>MagiclETM</div>
+            <div>交互式电子手册平台</div>
           </div>
         </div>
       </div>

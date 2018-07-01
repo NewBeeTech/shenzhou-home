@@ -9,7 +9,10 @@ const APPENV = process.env.APPENV;
 const config = require(`./config/config.${APPENV}`);
 
 module.exports = {
-  entry: "./src/index.js", // string | object | array
+  entry: {
+    app: "./src/index.js", // string | object | array
+    vendor: ["react", "react-dom"],
+  },
   // 这里应用程序开始执行
   // webpack 开始打包
 
@@ -211,9 +214,15 @@ module.exports = {
       filename: 'index.html',
       template: 'src/template.html'
     }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      minChunks: Infinity,
+      filename: 'vendor.js'
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin(config.app),
-    new OpenBrowserPlugin({ url: `http://${config.host}:${config.port}/webpack-dev-server/`}),
+    new OpenBrowserPlugin({ url: `http://${config.host}:${config.port}`}),
     // new NpmInstallPlugin(),
   ]
 }
+

@@ -4,8 +4,8 @@ const Loading = (isLoading) => (Target) => {
   return class Loading extends React.PureComponent {
     render() {
       return (
-        <Spin spinning={isLoading(this.props)} size="large">
-          <Target { ...this.props } />
+        <Spin style={{ height: '100%'}} spinning={isLoading(this.props)} size="large">
+          <Target { ...this.props } style={{ height: '100%'}} />
         </Spin>
       )
     }

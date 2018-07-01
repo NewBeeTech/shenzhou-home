@@ -7,10 +7,18 @@ import bgImg2 from '../../assets/images/basics-img2.svg';
 import bgImg3 from '../../assets/images/basics-img3.svg';
 import ProductImg1 from '../../assets/images/product1.svg';
 import ProductImg2 from '../../assets/images/product2.svg';
-import ProductImg3 from '../../assets/images/product3.svg';
+// import ProductImg3 from '../../assets/images/product3.svg';
 import ProductImg4 from '../../assets/images/product4.svg';
 import ProductImg5 from '../../assets/images/product5.svg';
 import ProductImg6 from '../../assets/images/product6.svg';
+
+// {
+//   title: 'MagicIST',
+//   img: ProductImg3,
+//   bgImg: bgImg3,
+//   content: '一体化模拟仿真系统',
+//   link: 'http://www.baidu.com',
+// }, 
 
 const list = [{
   title: 'MagicST',
@@ -24,13 +32,7 @@ const list = [{
   bgImg: bgImg2,
   content: '计算机兵棋推演系统',
   link: 'http://www.baidu.com',
-}, {
-  title: 'MagicIST',
-  img: ProductImg3,
-  bgImg: bgImg3,
-  content: '一体化模拟仿真系统',
-  link: 'http://www.baidu.com',
-}, {
+},{
   title: '飞行模拟器',
   img: ProductImg4,
   bgImg: bgImg1,

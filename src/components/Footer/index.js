@@ -36,7 +36,7 @@ const rightList3 = [
   { content: '职业教育在线课程', url: '' },
 ]
 const rightList4 = [
-  { content: '陆军航空兵战术对抗训练模拟系统', url: '' },
+  { content: '陆军兵种战术对抗训练模拟系统', url: '' },
   { content: '直升机控制停车特情处理模拟训练', url: '/helicopter-system' },
   { content: '坦克机动车战协同虚拟训练', url: '/tank-system' },
   { content: '水面舰艇损管虚拟训练系统', url: '/naval-vessels' },

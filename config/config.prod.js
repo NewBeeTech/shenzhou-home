@@ -1,4 +1,4 @@
-const APIURL = 'https://campus.alipay-eco.com';
+const APIURL = 'http://118.190.158.183:8080/api/';
 module.exports = {
   host: '0.0.0.0',
   port: '3000',

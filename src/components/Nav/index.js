@@ -2,6 +2,8 @@ import './style.css';
 import React, { Component } from 'react';
 import logo from '../../assets/images/logo.svg';
 import nav from '../../assets/images/nav.svg';
+import { dispatch } from '../../store';
+import { push } from 'react-router-redux';
 
 class Nav extends Component {
   // props: {
@@ -57,12 +59,18 @@ class Nav extends Component {
             ><a href="/#resolve">解决方案</a></li>
 						<li
               className={this.state.selected === 'support' ? 'tab-current' : ''}
-              onClick={() => this.handleList('support')}
-            ><a href="/technical-support">技术支持</a></li>
+              onClick={() => {
+                this.handleList('support')
+                dispatch(push('/technical-support'))
+              }}
+            ><a href="#">技术支持</a></li>
 						<li
               className={this.state.selected === 'culture' ? 'tab-current' : ''}
-              onClick={() => this.handleList('culture')}
-            ><a href="/corporate-culture">企业文化</a></li>
+              onClick={() => {
+                this.handleList('culture')
+                dispatch(push('/corporate-culture'))
+              }}
+            ><a href="#">企业文化</a></li>
 						<li
               className={this.state.selected === 'contact' ? 'tab-current' : ''}
               onClick={() => this.handleList('contact')}

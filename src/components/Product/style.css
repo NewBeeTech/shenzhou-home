@@ -2,6 +2,7 @@
   .Product {
     width: 100%;
     display: flex;
+    justify-content: space-between;
   }
   .Product-item {
     width: 16.67vw;
@@ -26,6 +27,7 @@
   .Product {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   .Product-item {
