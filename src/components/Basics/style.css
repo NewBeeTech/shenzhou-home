@@ -13,10 +13,13 @@
     height: 22vw;
     cursor: pointer;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .Basics-item-left-img {
-    width: 20vw;
-    height: 22vw;
+    width: 18vw;
+    height: 19vw;
     opacity: 0.8;
     transition: all 0.7s ease-in-out;
   }
@@ -39,13 +42,23 @@
     align-items: center;
   }
   .Basics-item-left {
-    /* margin-top: 3rem;
-    width: 50vw;
-    height: 60vw; */
+    margin-top: 3rem;
+    width: 80vw;
+    height: 80vw;
   }
+
+
+  .Basics-item-left-img {
+    width: 80vw;
+    height: 80vw;
+    opacity: 0.8;
+    transition: all 0.7s ease-in-out;
+  }
+
   .Basics-item-right {
     padding: 3rem 2rem;
   }
+
 }
 
 .Basics-right-title {

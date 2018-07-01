@@ -26,7 +26,7 @@ import ProductImg6 from '../../assets/images/product6.svg';
 
 const list = [{
   title: 'MagicST',
-  img: ProductImg1,
+  img: bgImg1,
   bgImg: bgImg1,
   content: '电子沙盘推演系统',
   link: '/magic-st',
@@ -38,7 +38,7 @@ const list = [{
   link: '/magic-wg',
 },{
   title: '飞行模拟器',
-  img: ProductImg4,
+  img: bgImg2,
   bgImg: bgImg1,
   content: '旋转翼、固定翼、战术型、全任务型等， 能够进行战术模拟训练、飞行驾驶技术模拟训练、武器攻击模拟训练、战场环境模拟训练，具 有较高的逼真度。',
   link: '/analog-equipment',
@@ -64,9 +64,13 @@ class Product extends Component {
     const view = [];
     list.map((item, index) => {
       view.push(
-        <div key={index} className="Product-item" style={{backgroundImage: `url(${item.bgImg})`, backgroundSize: 'cover'}}>
+        <div key={index} className="Product-item" 
+            style={{backgroundImage: `url(${item.img})`, backgroundSize: 'cover'}}
+        >
           <div key={index} className="Product-item-bg"  onClick={() => this.routeToDetails(item.link)}>
-            <div className="Product-item-img"><img src={item.img} alt="arrow-right"/></div>
+            <div className="Product-item-img">
+              {/* <img src={item.img} alt="arrow-right"/> */}
+            </div>
             <div className="Product-item-title">{item.title}</div>
             <div className="Product-item-content">
               {item.content}
