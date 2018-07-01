@@ -43,6 +43,7 @@ const rightList4 = [
   { content: '坦克机动作战协同虚拟训练系统', url: '/tank-system' },
   { content: '水面舰艇损管虚拟训练系统', url: '/naval-vessels' },
   { content: '空军作战指挥训练仿真系统', url: '/simulation-system' },
+  { content: '全部案例', url: '' },
 ]
 class Footer extends Component {
   showAll () {

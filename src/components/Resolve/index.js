@@ -56,7 +56,7 @@ const list = [{
 }]
 class Resolve extends Component {
   showAll () {
-    console.log('查看全部');
+    dispatch(push(''))
   }
   renderList () {
     const view = [];
@@ -81,9 +81,9 @@ class Resolve extends Component {
         <div className="Resolve-card">
           {this.renderList()}
         </div>
-        {/* <div onClick={() => this.showAll()}className="Resolve-all">
+        <div onClick={() => this.showAll()}className="Resolve-all">
           查看全部
-        </div> */}
+        </div>
       </div>
     );
   }
