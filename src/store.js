@@ -13,7 +13,7 @@ import { createHashHistory, createBrowserHistory, createMemoryHistory } from 'hi
 // import { crashMonitorMiddleware } from './core/monitor/crashMonitorMiddleware';
 
 // Sync dispatched route actions to the history
-export const history = createBrowserHistory();
+export const history = createHashHistory();
 const reduxRouterMiddleware = routerMiddleware(history);
 
 
