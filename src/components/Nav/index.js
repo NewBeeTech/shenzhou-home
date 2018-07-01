@@ -63,18 +63,21 @@ class Nav extends Component {
                 this.handleList('support')
                 dispatch(push('/technical-support'))
               }}
-            ><a href="#">技术支持</a></li>
+            ><a>技术支持</a></li>
 						<li
               className={this.state.selected === 'culture' ? 'tab-current' : ''}
               onClick={() => {
                 this.handleList('culture')
                 dispatch(push('/corporate-culture'))
               }}
-            ><a href="#">企业文化</a></li>
+            ><a>企业文化</a></li>
 						<li
               className={this.state.selected === 'contact' ? 'tab-current' : ''}
-              onClick={() => this.handleList('contact')}
-            ><a href="/contact-us">联系我们</a></li>
+              onClick={() => {
+                this.handleList('contact')
+                dispatch(push('/contact-us'))
+              }}
+            ><a>联系我们</a></li>
 					</ul>
 				</nav>
         <div
@@ -87,9 +90,23 @@ class Nav extends Component {
     					<li><a onClick={() => {this.toggleNav()}} href="/#basics">基础平台</a></li>
     					<li><a onClick={() => {this.toggleNav()}} href="/#product">主要产品</a></li>
     					<li><a onClick={() => {this.toggleNav()}} href="/#resolve">解决方案</a></li>
-    					<li><a onClick={() => {this.toggleNav()}} href="/technical-support">技术支持</a></li>
-    					<li><a onClick={() => {this.toggleNav()}} href="/corporate-culture">企业文化</a></li>
-    					<li><a onClick={() => {this.toggleNav()}} href="/contact-us">联系我们</a></li>
+    					<li>
+                 <a onClick={() => {
+                      this.toggleNav()
+                      dispatch(push('/technical-support'))
+                    }}
+                  >技术支持</a></li>
+    					<li>
+                  <a onClick={() => {
+                      this.toggleNav()
+                      dispatch(push('/corporate-culture'))
+                    }}
+                  >企业文化</a></li>
+    					<li>
+                  <a onClick={() => {
+                      this.toggleNav()
+                      dispatch(push('/contact-us'))
+                    }}>联系我们</a></li>
     				</ul>
     			</nav>
     		</div>
