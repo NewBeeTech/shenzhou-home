@@ -5,6 +5,7 @@ import { message } from 'antd';
 
 export const LEAVE_MSG = 'LEAVE_MSG';
 export const leaveMsg = (params) => {
+  console.log('params:', params)
   const fetchHandler = new Tinker(
     `${APIURL}user/leaveMsg`,
     {

@@ -3,6 +3,7 @@ import Nav from '../../components/Nav';
 import TopImg from '../../components/TopImg';
 import Footer from '../../components/Footer';
 import * as HomeAction from '../../actions/HomeAction';
+import { dispatch } from '../../store';
 
 import topImg from '../../assets/images/technical-support-img.png';
 
@@ -71,7 +72,7 @@ class TechnicalSupport extends Component {
                     email: this.state.email,
                     desc: this.state.desc,
                   }
-                  this.props.dispatch(HomeAction.leaveMsg(params))
+                  HomeAction.leaveMsg(params)
                }}
             >确认提交</div>
           </div>
