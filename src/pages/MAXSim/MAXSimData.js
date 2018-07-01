@@ -52,16 +52,20 @@ export const data = [{
 
 export const anliData = [{
     title: '陆军兵种战术对抗模拟训练系统',
-    img: icon7
+    img: icon7,
+    url: '/army-system'
   }, {
     title: '新型编制单元作战效能仿真系统',
-    img: icon8
+    img: icon8,
+    url: '/simulation-system'
   }, {
     title: '预警指挥平台模拟训练系统',
-    img: icon9
+    img: icon9,
+    url: '/early-warning'
   }, {
     title: '新型作战平台作战战法研究系统',
-    img: icon10
+    img: icon10,
+    url: '/combat-platform'
   }]
 
 

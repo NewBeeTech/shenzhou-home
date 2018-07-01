@@ -4,9 +4,11 @@ import TopImgForMagic from '../../components/TopImgForMagic';
 import Footer from '../../components/Footer';
 import ProductIntroduction from '../../components/ProductIntroduction';
 import CommonTitle from '../../components/CommonTitle';
-import CharacteristicsRow from '../../components/CharacteristicsRow'
 import Carousel from '../../components/Carousel'
 import { projectData, anliData, data } from './MAXSimData';
+import { dispatch } from '../../store';
+import { push } from 'react-router-redux';
+
 
 import topImg from '../../assets/images/max-sim-bg.png';
 import magicImg from '../../assets/images/max-sim-img1.png';
@@ -35,7 +37,11 @@ class MAXSim extends Component {
     if(data) {
       data.map((item, key) => {
         views.push(
-          <div key={key} className="max-sim-anli-item">
+          <div key={key} className="max-sim-anli-item"
+             onClick={() => {
+              dispatch(push(item.url))
+             }}
+          >
             <div className="max-sim-anli-img"><img src={item.img} alt="" /></div>
             <div>{item.title}</div>
           </div>

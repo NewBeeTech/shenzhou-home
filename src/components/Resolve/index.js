@@ -13,6 +13,7 @@ import ResolveImg7 from '../../assets/images/resolve7.svg';
 import ResolveImg8 from '../../assets/images/resolve8.svg';
 
 const list = [{
+  
   content: '陆军兵种战术对抗训练模拟系统',
   icon: ResolveImg1,
   hoverIcon: ResolveImg2,
