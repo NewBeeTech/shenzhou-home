@@ -3,6 +3,8 @@ import reduxTinker from '../lib/tinker/src/reduxTinker';
 import { dispatch } from '../store';
 import { message } from 'antd';
 
+const APIURL = `http://${window.location.host}/api/`
+
 export const LEAVE_MSG = 'LEAVE_MSG';
 export const leaveMsg = (params) => {
   console.log('params:', params)
