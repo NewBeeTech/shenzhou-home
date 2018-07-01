@@ -184,7 +184,7 @@ module.exports = {
 
   devServer: {
     proxy: { // proxy URLs to backend development server
-      '/': {
+      '/api': {
                 changeOrigin: true,
                 target:  config.proxyURL,
                 secure: false
