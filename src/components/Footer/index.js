@@ -1,5 +1,7 @@
 import './style.css';
 import React, { Component } from 'react';
+import { dispatch } from '../../store';
+import { push } from 'react-router-redux';
 import bgImg from '../../assets/images/footer-bg.png';
 import mail from '../../assets/images/mail.svg';
 import mobile from '../../assets/images/mobile.svg';
@@ -30,18 +32,17 @@ const rightList2 = [
 const rightList3 = [
   { content: 'MagicST', url: '/magic-st' },
   { content: 'MagicWG', url: '/magic-wg' },
-  { content: '飞行模拟器', url: '' },
-  { content: '装甲车模拟器', url: '' },
-  { content: '炮兵模拟器', url: '' },
+  { content: '飞行模拟器', url: '/analog-equipment' },
+  { content: '装甲车模拟器', url: '/analog-equipment' },
+  { content: '炮兵模拟器', url: '/analog-equipment' },
   { content: '职业教育在线课程', url: '' },
 ]
 const rightList4 = [
-  { content: '陆军兵种战术对抗训练模拟系统', url: '' },
+  { content: '陆军兵种战术对抗训练模拟系统', url: '/army-system' },
   { content: '直升机控制停车特情处理模拟训练', url: '/helicopter-system' },
   { content: '坦克机动车战协同虚拟训练', url: '/tank-system' },
   { content: '水面舰艇损管虚拟训练系统', url: '/naval-vessels' },
   { content: '空军作战指挥训练仿真系统', url: '/simulation-system' },
-  { content: '全部案例', url: '' }
 ]
 class Footer extends Component {
   showAll () {
@@ -65,7 +66,9 @@ class Footer extends Component {
     list.map((item, index) => {
       view.push(
         <a key={index} className="Footer-right-child-item"
-          href={item.url}
+          onClick={() => {
+            dispatch(push(item.url))
+          }}
         >{item.content}</a>
       )
       return item;
