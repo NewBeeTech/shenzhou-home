@@ -1,0 +1,86 @@
+
+
+@media screen and (min-width: 500px) {
+  .about-us {
+    width: 80vw;
+    margin: 7.5rem auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+
+  .about-us-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw 0;
+  }
+
+  .about-us-item-imgdiv {
+    width: 30vw;
+    height: 25vw;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rowImg {
+    width: 80%;
+  }
+
+  .columnImg {
+    width: 50%;
+  }
+
+  .about-us-item-title {
+    color: #233141;
+    font-size: 1rem;
+    margin-top: 1vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-us {
+    width: 80vw;
+    margin: 3vw auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+
+  .about-us-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw 0;
+  }
+
+  .about-us-item-imgdiv {
+    width: 30vw;
+    height: 25vw;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rowImg {
+    width: 80%;
+  }
+
+  .columnImg {
+    width: 50%;
+  }
+
+  .about-us-item-title {
+    color: #233141;
+    font-size: 1rem;
+    margin-top: 1vw;
+    width: 30vw;
+    height: 10vw;
+    text-align: center;
+  }
+}

@@ -1,0 +1,114 @@
+.magic-wg-system-composition {
+    background: #F6F6F6;
+    padding: 5vw 10vw;
+}
+
+.magic-wg-system-composition-img {
+    border-top: 2px dashed #606F80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 5rem 0;
+ }
+
+.magic-wg-system-composition-img > div {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    margin-top: 5rem;
+}
+
+.magic-wg-product-img {
+    background: #161F2A;
+    padding: 4rem 0;
+}
+
+.magic-wg-technical {
+    padding: 4rem 0;
+}
+
+@media screen and (min-width: 900px) { 
+    .magic-wg-system-composition-img > img {
+        width: 70%;
+    }
+
+    .magic-wg-technical-content {
+        padding: 4rem 10vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .magic-wg-technical-content > div {
+        width: calc(40vw - 1px - 6rem);
+    }
+
+    .magic-wg-technical-content-div1 {
+        border-right: 1px solid rgba(209,220,235,1);
+        border-bottom: 1px solid rgba(209,220,235,1);
+        padding: 1rem 3rem 4rem;
+    }
+    .magic-wg-technical-content-div2 {
+        border-bottom: 1px solid rgba(209,220,235,1);
+        padding: 1rem 3rem 4rem;
+    }
+    .magic-wg-technical-content-div3 {
+        border-right: 1px solid rgba(209,220,235,1);
+        padding: 4rem 3rem 1rem;
+    }
+
+    .magic-wg-technical-content-div4 {
+        padding: 4rem 3rem 1rem;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .magic-wg-system-composition-img > img {
+        width: 70%;
+    }
+
+    .magic-wg-technical-content {
+        padding: 4rem 10vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .magic-wg-technical-content > div {
+        width: calc(40vw - 1px);
+    }
+
+    .magic-wg-technical-content-div1 {
+        border-right: 1px solid rgba(209,220,235,1);
+        border-bottom: 1px solid rgba(209,220,235,1);
+        padding: 1rem 3rem 4rem;
+    }
+    .magic-wg-technical-content-div2 {
+        border-bottom: 1px solid rgba(209,220,235,1);
+        padding: 1rem 3rem 4rem;
+    }
+    .magic-wg-technical-content-div3 {
+        border-right: 1px solid rgba(209,220,235,1);
+        padding: 4rem 3rem 1rem;
+    }
+
+    .magic-wg-technical-content-div4 {
+        padding: 4rem 3rem 1rem;
+    }
+  }
+
+@media screen and (max-width: 500px) { 
+    
+    .magic-wg-system-composition-img > img {
+        width: 100%;
+    }
+
+    .magic-wg-technical-content {
+        padding: 4rem 10vw;
+    }
+
+}

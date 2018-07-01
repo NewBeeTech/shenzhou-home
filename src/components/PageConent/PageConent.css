@@ -1,0 +1,11 @@
+
+:global(.ant-pagination-item-active) {
+  border-color: #AE0000;
+  background: #AE0000;
+  color: #fff;
+  font-size: #AE0000;
+}
+
+:global(.ant-pagination-item-active a) {
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+export const data = [{
+  corporateName: '天津分公司',
+  corporateAddress: '地址：天津市滨海新区塘沽云山道军民融合创新研究院',
+  corporatePhone: '电话：022-58532817',
+}, {
+  corporateName: '武汉分公司',
+  corporateAddress: '地址：湖北省武汉市硚口区古田四路197号广电财富中心702室',
+  corporatePhone: '电话：027-83863809',
+}, {
+  corporateName: '青岛分公司',
+  corporateAddress: '地址：山东省青岛市北区黑龙江南路2号万科中心B座614、615室',
+  corporatePhone: '电话：0532-55578601',
+}, {
+  corporateName: '西安分公司',
+  corporateAddress: '地址：陕西省西安市雁塔区唐延路一号旺座国际城B座3130室',
+  corporatePhone: '电话：029-83655043',
+}, {
+  corporateName: '哈尔滨分公司',
+  corporateAddress: '地址：黑龙江省哈尔滨市道外区开原街3号创库科技大楼',
+  corporatePhone: '电话：0451-58567359',
+}, {
+  corporateName: '南京分公司',
+  corporateAddress: '地址：江苏省南京市雨花台区大周路32号科创城D2北3层',
+  corporatePhone: '电话：15300307792',
+}, {
+  corporateName: '长沙分公司',
+  corporateAddress: '地址：长沙市开福区双拥路科大家园北苑17栋2603',
+  corporatePhone: '电话：0731-84440288',
+}]

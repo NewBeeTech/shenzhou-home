@@ -1,0 +1,85 @@
+.magic-book-system-composition {
+    width: 80vw;
+    margin: 3rem auto;
+}
+
+
+.magic-book-zucheng-composition-img > div {
+    text-align: center;
+    padding-top: 3rem;
+    font-size:1.2rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(35,49,65,1);
+}
+.magic-book-zucheng-composition-img > img {
+    width: 100%;
+}
+
+.max-sim-zucheng-title {
+    font-size:1.2rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(0,0,0,1);
+    margin-bottom: 1rem;
+}
+
+.max-sim-zucheng-content {
+    font-size:0.8rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(0,0,0,1);
+    line-height:1.8rem;
+}
+
+.max-sim-zucheng-line {
+    width: 100%;
+    border-top: 1px dashed rgba(151,151,151,1)
+}
+
+.magic-st-zucheng-composition {
+    padding: 2rem 0;
+}
+
+@media screen and (max-width: 500px) {
+
+    .magic-book-zucheng-composition {
+        width: 80vw;
+        margin: 3rem auto;
+    }
+
+    .magic-book-zucheng-composition-img {
+        width: 80vw;
+        margin: 1rem 0;
+    }
+
+    .max-sim-zucheng-item {
+        width: 80vw;
+        margin: 1rem 0;
+    }
+
+    .magic-book-zucheng-right {
+        margin-top: 3rem;
+    }
+
+
+}
+
+@media screen and (min-width: 500px) {
+
+    .magic-book-zucheng-composition {
+        width: 80vw;
+        margin: 3rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .magic-book-zucheng-composition-img {
+        width: 35vw;
+        margin: 1rem 0;
+    }
+
+    .max-sim-zucheng-item {
+        width: 40vw;
+        margin: 1rem 0;
+    }
+
+}

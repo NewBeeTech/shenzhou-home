@@ -1,0 +1,31 @@
+.magic-st-system-composition {
+    background: #F6F6F6;
+    padding-bottom: 3rem;
+    /* padding: 0 10vw; */
+}
+
+.magic-st-system-composition-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.magic-st-system-composition-img > img {
+    width: 50%;
+}
+
+.magic-st-technical {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.magic-st-technical-div1 {
+    padding: 3rem 0;
+    border-bottom: 2px solid #D1DCEB
+}
+
+.magic-st-technical-div2 {
+    padding: 3rem 0;
+}

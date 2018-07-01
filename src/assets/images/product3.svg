@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-copy" transform="translate(-565.000000, -3080.000000)" stroke="#FFFFFF">
+            <g id="Group-26" transform="translate(0.000000, 3009.000000)">
+                <g id="Group-25">
+                    <g id="3" transform="translate(559.500000, 66.000000)">
+                        <g id="2" transform="translate(40.855339, 40.355339) rotate(45.000000) translate(-40.855339, -40.355339) translate(15.855339, 15.355339)">
+                            <rect id="Rectangle-7" x="0.5" y="0.5" width="49" height="49" rx="2"></rect>
+                            <path d="M25,25 L0.5,25 L25,25 L25,0.5 L25,25 Z M25,25 L49.5,25 L25,25 L25,49.5917508 L25,25 Z" id="Line-4" stroke-linecap="square"></path>
+                            <circle id="Oval-4" cx="12" cy="13" r="5"></circle>
+                            <circle id="Oval-4-Copy-2" cx="12" cy="37" r="5"></circle>
+                            <circle id="Oval-4-Copy" cx="37" cy="13" r="5"></circle>
+                            <circle id="Oval-4-Copy-4" cx="37" cy="37" r="5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

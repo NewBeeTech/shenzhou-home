@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* cursor: url(http://ctc.i.gtimg.cn/qzone/space_item/orig/13/5837.gif),default; */
+  }
+  
+  html {
+    width: 100%;
+    font-size: 14px;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  
+  /* Example for media query: change font size */
+  
+  @media screen and (mix-width: 1440px) {
+    html {
+      font-size: 16px;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    html {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  /* @media screen and (max-width: 1190px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    html {
+      font-size: 14px;
+    }
+  } */
+  
+  @media screen and (max-width: 780px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    html {
+      font-size: 12px;
+      width: 100%;
+    }
+  }
+  

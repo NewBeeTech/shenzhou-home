@@ -1,0 +1,137 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #d4dbe3;
+  padding: 4vw 0;
+}
+
+.Footer-right-child-item:hover,
+	.Footer-right-child-item:focus {
+		color: #f0f0f0;
+  }
+  
+@media screen and (min-width: 900px) {
+  .Footer-left {
+    font-size: 1.14rem;
+    width: 25vw;
+    align-items: center;
+  }
+  .Footer-left-logo {
+    width: 20vw;
+    margin: 0 auto;
+  }
+  .Footer-left-bottom {
+    margin-top: 3rem;
+  }
+  .Footer-left-item {
+    display: flex;
+    line-height: 3em;
+  }
+  .Footer-left-content {
+    margin-left: 0.6rem;
+  }
+
+  .Footer-middle {
+    margin: 0 2rem;
+    height: 15rem;
+    width: 2px;
+    background: rgba(78,92,108,1);
+  }
+
+  .Footer-right {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Footer-right-list {
+    margin-top: 2rem;
+  }
+  .Footer-right-item span {
+    display: inline-block;
+    font-size: 1.14rem;
+    padding-right: 0.5rem;
+    line-height: 2em;
+    border-bottom: 4px solid #d4dbe3;
+  }
+  .Footer-right-child-item {
+    line-height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+		color: #fff;
+    text-decoration: none;
+  }
+
+}
+@media screen and (max-width: 900px) {
+  .Footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #d4dbe3;
+    padding: 4vw 0;
+  }
+  .Footer-left {
+    font-size: 1.14rem;
+    width: 90%;
+    /* align-items: center; */
+    margin: 0 auto;
+    /* border-right: 2px solid rgba(78,92,108,1); */
+  }
+  .Footer-left-logo {
+    width: 200px;
+    margin: 0 calc(50% - 100px);
+  }
+  .Footer-left-bottom {
+    margin-top: 3rem;
+  }
+  .Footer-left-item {
+    display: flex;
+    line-height: 3em;
+  }
+  .Footer-left-content {
+    margin-left: 0.6rem;
+  }
+
+  .Footer-middle {
+    display: none;
+  }
+
+  .Footer-right {
+    margin-top: 3rem;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .Footer-right-item {
+    margin-top: 2rem;
+  }
+  .Footer-right-list {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Footer-right-item span {
+    display: inline-block;
+    font-size: 1.14rem;
+    padding-right: 0.5rem;
+    line-height: 2em;
+    border-bottom: 4px solid #d4dbe3;
+  }
+  .Footer-right-child-item {
+    line-height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+		color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+}

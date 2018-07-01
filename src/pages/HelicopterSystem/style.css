@@ -1,0 +1,87 @@
+
+
+
+/* 
+.helicopter-system-technical-content-div2 {
+    border-left: 2px solid rgba(209,220,235,1);
+    border-right: 2px solid rgba(209,220,235,1);
+} */
+
+@media screen and (min-width: 500px) {
+    .helicopter-system-system {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4rem 0 0;
+    }
+    .helicopter-system-system-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size:1.2rem;
+        font-family:PingFangSC-Regular;
+        color:rgba(96,111,128,1);
+        width: 15rem;
+    }
+    
+    .helicopter-system-system-item > div > img {
+        width: 8.75rem;
+        height: 8.75rem;
+        margin-bottom: 2rem;
+    }
+    
+    .helicopter-system-technical-content {
+        padding: 3rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .helicopter-system-technical-content > div {
+        width: 30%;
+        padding: 0 3%;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .helicopter-system-system {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0 0;
+    }
+    .helicopter-system-system-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size:1.2rem;
+        font-family:PingFangSC-Regular;
+        color:rgba(96,111,128,1);
+        margin: 1rem 0;
+        /* width: 15rem; */
+    }
+    
+    .helicopter-system-system-item > div > img {
+        width: 8.75rem;
+        height: 8.75rem;
+        margin-bottom: 2rem;
+    }
+    
+    .helicopter-system-technical-content {
+        padding: 3rem 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .helicopter-system-technical-content > div {
+        width: 100%;
+        padding: 0 3%;
+    }
+
+}
+

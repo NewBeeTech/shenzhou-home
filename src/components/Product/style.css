@@ -1,0 +1,115 @@
+@media screen and (min-width: 900px) {
+  .Product {
+    width: 100%;
+    display: flex;
+  }
+  .Product-item {
+    width: 16.67vw;
+    height: 25vw;
+  }
+  .Product-item-bg {
+    position: absolute;
+    width: 16.67vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #233141;
+    opacity: 0.8;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Product {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Product-item {
+    width: calc(100vw / 3);
+    height: 50vw;
+  }
+  .Product-item-bg {
+    position: absolute;
+    width: calc(100vw / 3);
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #233141;
+    opacity: 0.8;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Product {
+    width: 100%;
+  }
+  .Product-item {
+    display: flex;
+    width: 100vw;
+    height: 60vw;
+  }
+  .Product-item-bg {
+    position: absolute;
+    width: 100vw;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #233141;
+    opacity: 0.8;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+  }
+}
+
+.Product-item:hover .Product-item-more {
+  display: block;
+}
+.Product-item:hover .Product-item-bg {
+  background: #ae0000;
+}
+.Product-item:hover .Product-item-img {
+  margin-top: 1rem;
+
+}
+
+.Product-item-img {
+  margin-top: 2rem;
+  flex-grow: 1;
+}
+.Product-item-title {
+  font-size: 1.3rem;
+  font-weight: 300;
+  flex-grow: 1;
+}
+.Product-item-content {
+  flex-grow: 3;
+  font-weight: 200;
+  max-width: 86%;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+.Product-item-more {
+  flex-grow: 2;
+  display: none;
+}
+.Product-item-more div {
+  border: 1px solid #fff;
+  font-size: 1.1rem;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  width: 8em;
+}

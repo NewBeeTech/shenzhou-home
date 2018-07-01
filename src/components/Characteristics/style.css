@@ -1,0 +1,36 @@
+.Characteristics {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.characteristics-no {
+    font-size:3.75rem;
+    font-family:Ayuthaya;
+    color:rgba(209,220,235,1);
+    border-bottom: 0.4rem solid rgba(209,220,235,1);
+}
+
+.characteristics-content {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    margin-top: 3rem;
+    line-height: 2rem;
+}
+
+.characteristics-subTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    border:1px solid rgba(209,220,235,1);
+    border-radius: 1rem;
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    text-align: center;
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,146 @@
+
+
+@media screen and (min-width: 500px) {
+  .contact-us-title {
+    font-size: 2.5rem;
+    color: #233141;
+    text-align: center;
+    margin: 3.5rem 0;
+  }
+
+  .ContactUsInfo-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .left-cord {
+    margin-right: 3vw;
+  }
+
+  .ContactUsInfo-item {
+    width: 38vw;
+    padding: 3vw 4vw;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 3vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .ContactUsInfo-item-img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 2rem;
+  }
+
+  .ContactUsInfo-item-text {
+    color: #797979;
+    font-size: 1rem;
+  }
+
+  .ContactUsInfo-item-text > span{
+    color: #212331;
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+
+  .address-list-td1 {
+    width: 20%;
+    border: 1px solid #E0E0E0;
+    padding: 1rem 0 1rem 3rem;
+    color: #606F80;
+    font-size: 1rem;
+  }
+
+  .address-list-td3 {
+   width: 30%;
+   border: 1px solid #E0E0E0;
+   padding: 1rem 0 1rem 3rem;
+   color: #606F80;
+   font-size: 1rem;
+ }
+
+  .address-list-td2 {
+    width: 50%;
+    border: 1px solid #E0E0E0;
+    padding: 1rem 0 1rem 2rem;
+    color: #606F80;
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .contact-us-title {
+    font-size: 1.5rem;
+    color: #233141;
+    text-align: center;
+    margin: 3.5rem 0;
+  }
+
+  .ContactUsInfo-item {
+    padding: 5vw 6vw;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 3vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .ContactUsInfo-item-img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 2rem;
+  }
+
+  .ContactUsInfo-item-text {
+    color: #797979;
+    font-size: 1rem;
+  }
+
+  .ContactUsInfo-item-text > span{
+    color: #212331;
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+
+  .address-list-td1, .address-list-td3 {
+    width: 23%;
+    border: 1px solid #E0E0E0;
+    padding: 1rem;
+    color: #606F80;
+    font-size: 1rem;
+  }
+
+  .address-list-td2 {
+    width: 50%;
+    border: 1px solid #E0E0E0;
+    padding: 1rem;
+    color: #606F80;
+    font-size: 1rem;
+  }
+
+}
+
+.address-list-table {
+  width: 80vw;
+  /* margin: 2rem 0; */
+}
+
+.address-list-table-title {
+  width: 80vw;
+  color: #233141;
+  font-size: 1.5rem;
+  border: 1px solid #E0E0E0;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.contact-us-map {
+  margin-top: 2rem;
+  width: 100%;
+}

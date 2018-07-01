@@ -1,0 +1,15 @@
+.ProductIntroduction {
+    padding: 5vw 10vw;
+}
+
+.ProductIntroduction-content {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    line-height:2rem;
+    margin-top: 4rem;
+}
+
+.ProductIntroduction-item {
+    text-indent:2em;
+}

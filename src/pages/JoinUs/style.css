@@ -1,0 +1,73 @@
+.JoinUs {
+  width: 100%;
+}
+.JoinUs-header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+.JoinUs-body {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+}
+.JoinUs-content {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 500px) {
+  .Contact-details {
+    width: 80vw;
+    margin: 1.5rem 0 4.5rem 10vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Contact-details-left {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(35,49,65,1);
+    line-height:2.7rem;
+  }
+
+  .Contact-details-right {
+    margin-left: 3rem;
+    width: 25rem;
+    height: 9.7rem;
+  }
+
+  .Contact-details-map {
+    width: 25rem;
+    height: 9.7rem;
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  .Contact-details {
+    width: 80vw;
+    margin: 1.5rem 0 4.5rem 10vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .Contact-details-left {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(35,49,65,1);
+    line-height:2.7rem;
+  }
+
+  .Contact-details-right {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 9.7rem;
+  }
+
+  .Contact-details-map {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 9.7rem;
+  }
+}

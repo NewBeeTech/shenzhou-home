@@ -1,0 +1,66 @@
+.military-industrial-enterprises-content {
+    background: #F6F6F6;
+    padding: 2rem 10vw;
+}
+
+
+.military-industrial-enterprises-right-title {
+    font-size:1.2rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(96,111,128,1);
+    margin-bottom: 1rem;
+}
+
+.military-industrial-enterprises-right-content {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    line-height:2rem;
+}
+
+@media screen and (min-width: 500px) {
+    .military-industrial-enterprises-right-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 4rem 0;
+        border-bottom: 1px dashed #606F80;
+
+    }
+    
+    .military-industrial-enterprises-img {
+        width: 10vw;
+        margin-right: 5vw;
+    }
+    
+    .military-industrial-enterprises-img > img {
+        width: 100%;
+    }
+    
+    .military-industrial-enterprises-right {
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .military-industrial-enterprises-right-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 0;
+        border-bottom: 1px dashed #606F80;
+    }
+    
+    .military-industrial-enterprises-img {
+        width: 40vw;
+        margin-bottom: 5vw;
+    }
+    
+    .military-industrial-enterprises-img > img {
+        width: 100%;
+    }
+    
+    .military-industrial-enterprises-right {
+        width: 65vw;
+    }
+}

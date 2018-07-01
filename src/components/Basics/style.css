@@ -1,0 +1,113 @@
+.Basics {
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .Basics-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Basics-item-left {
+    width: 20vw;
+    height: 22vw;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .Basics-item-left-img {
+    width: 20vw;
+    height: 22vw;
+    opacity: 0.8;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .Basics-item-left:hover .Basics-item-left-img {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  .Basics-item-right {
+    width: 50vw;
+    min-height: 20vw;
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Basics-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Basics-item-left {
+    /* margin-top: 3rem;
+    width: 50vw;
+    height: 60vw; */
+  }
+  .Basics-item-right {
+    padding: 3rem 2rem;
+  }
+}
+
+.Basics-right-title {
+  width: 5em;
+  color: #ae0000;
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 2em;
+  border-bottom: 5px solid #d8d8d8;
+}
+
+.Basics-right-content {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #6f7781;
+  line-height: 2;
+}
+.Basics-right-more {
+  /* margin-top: 20px; */
+  font-size: 1.1rem;
+  color: #233141;
+  display: inline-flex;
+  align-items: center;
+  width: 6em;
+  cursor: pointer;
+}
+.Basics-right-more img {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-left: 10px;
+}
+
+.Basics-right-more-div {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.asics-right-more-button {
+  display: flex;
+}
+.asics-right-more-button1 {
+  font-size: 1rem;
+  color: #AE0000;
+  height: 2.5rem;
+  width: 7.5rem;
+  border-radius:4px;
+  border:1px solid rgba(174,0,0,1);
+  text-align: center;
+  line-height: 2.5rem;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.asics-right-more-button2 {
+  font-size: 1rem;
+  color: #606F80;
+  height: 2.5rem;
+  width: 7.5rem;
+  border-radius:4px;
+  border:1px solid #606F80;
+  text-align: center;
+  line-height: 2.5rem;
+  cursor: pointer;
+}

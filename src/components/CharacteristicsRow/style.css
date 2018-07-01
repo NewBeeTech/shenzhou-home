@@ -1,0 +1,21 @@
+.Characteristics-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.characteristics-row-no {
+    font-size:3.75rem;
+    font-family:Ayuthaya;
+    color:rgba(209,220,235,1);
+    border-right: 0.4rem solid rgba(209,220,235,1);
+    padding-right: 2rem;
+    margin-right: 2rem;
+}
+
+.characteristics-row-content {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    line-height: 2rem;
+}

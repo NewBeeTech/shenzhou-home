@@ -1,0 +1,67 @@
+
+@media screen and (min-width: 500px) {
+    .air-force-system-system {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 4rem 0 2rem;
+        border-bottom: 1px dashed #A9BBCF;
+    }
+    .air-force-system-system-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size:1rem;
+        font-family:PingFangSC-Regular;
+        color:rgba(96,111,128,1);
+        width: 15rem;
+        width: 33%;
+        margin: 1rem 0;
+    }
+    
+    .air-force-system-system-title {
+        width: 13rem;
+        height: 3rem;
+        text-align: center;
+    }
+    .air-force-system-system-item > div > img {
+        width: 8.75rem;
+        height: 8.75rem;
+        margin-bottom: 2rem;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .air-force-system-system {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0 2rem;
+        border-bottom: 1px dashed #A9BBCF;
+    }
+    .air-force-system-system-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size:1.2rem;
+        font-family:PingFangSC-Regular;
+        color:rgba(96,111,128,1);
+        margin: 1rem 0;
+        /* width: 15rem; */
+    }
+
+    .air-force-system-system-item > div  {
+        text-align: center;
+    }
+    
+    .air-force-system-system-item > div > img {
+        width: 8.75rem;
+        height: 8.75rem;
+        margin-bottom: 2rem;
+    }
+    
+}

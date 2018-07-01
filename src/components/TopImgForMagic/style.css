@@ -1,0 +1,50 @@
+/* 头图 */
+.TopImgForMagic-img {
+  position: relative;
+  width: 100vw;
+  height: 34.7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TopImgForMagic-img-title {
+  position: absolute;
+  background:rgba(10,23,46,0.5);
+  width: 100vw;
+  padding: 1vw 0 1vw 10vw;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+}
+
+
+@media screen and (max-width: 500px) { 
+  .TopImgForMagic-img-title div:first-child {
+    font-size: 1rem;
+    color: #fff;
+    border-left: 0.5rem solid #AE0000;
+    padding-left: 1rem;
+  }
+  .TopImgForMagic-img-title div:last-child {
+    font-size: 1rem;
+    color: #fff;
+    padding-left: 1.5rem;
+  }
+ }
+
+@media screen and (min-width: 500px) {  
+  .TopImgForMagic-img-title div:first-child {
+    font-size: 2.2rem;
+    color: #fff;
+    border-left: 0.8rem solid #AE0000;
+    padding-left: 1rem;
+  }
+  .TopImgForMagic-img-title div:last-child {
+    font-size: 2.2rem;
+    color: #fff;
+    padding-left: 1.8rem;
+  }
+
+}

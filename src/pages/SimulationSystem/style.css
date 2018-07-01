@@ -1,0 +1,30 @@
+.simulation-system-composition-img {
+   border-top: 2px dashed #606F80;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 80vw;
+   margin: 0 auto;
+   padding: 5rem 0;
+}
+
+.simulation-system-composition-img > img {
+    width: 90%;
+}
+
+.simulation-system-composition-img > div {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    margin-top: 5rem;
+}
+
+.simulation-system-composition-title {
+    text-align: center;
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    padding-top: 2rem;
+}
+

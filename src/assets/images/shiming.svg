@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-copy" transform="translate(-232.000000, -869.000000)" stroke="#FFFFFF">
+            <g id="Group-6" transform="translate(233.000000, 870.000000)">
+                <circle id="Oval-2" cx="35" cy="35" r="35"></circle>
+                <g id="Group-4" transform="translate(10.000000, 10.000000)">
+                    <g id="Group-5" transform="translate(2.000000, 11.000000)">
+                        <path d="M6.2012643,14.2119979 L26.1788067,4.65028251" id="Line-2" stroke-linecap="square"></path>
+                        <path d="M8.2012643,22.2119979 L30.5,22.2119979" id="Line-3" stroke-linecap="square"></path>
+                        <rect id="Rectangle-10-Copy" transform="translate(4.884581, 18.719762) rotate(-15.000000) translate(-4.884581, -18.719762) " x="2.88792868" y="12.3053688" width="3.99330545" height="12.8287855" rx="1.99665272"></rect>
+                        <path d="M13.0847744,21.9369373 L13.3233842,25.4186987 C13.3704668,26.1057217 13.8792944,26.6724339 14.5572957,26.7929809 L20.8156854,27.905708 C20.8593693,27.9134749 20.9033763,27.9192997 20.9475766,27.9231654 C21.7728536,27.995342 22.5003834,27.3848335 22.57256,26.5595566 L22.9298531,22.4742197 L13.0847744,21.9369373 Z" id="Rectangle-11" transform="translate(18.010119, 24.917925) rotate(-3.000000) translate(-18.010119, -24.917925) "></path>
+                        <rect id="Path" transform="translate(31.011049, 13.148205) rotate(-15.000000) translate(-31.011049, -13.148205) " x="28.8288787" y="1.03367288" width="4.36434146" height="24.2290636" rx="2"></rect>
+                        <path d="M36.8431313,7.2237653 C40.1735864,10.1194213 41.0062001,13.4714718 39.3409726,17.2799167" id="Path-2" stroke-linecap="round"></path>
+                        <path d="M39.8289099,3.26109171 C45.0480286,8.25269329 46.4327708,13.7846053 43.9831366,19.8568279" id="Path-3" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

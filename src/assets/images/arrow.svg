@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="10px" viewBox="0 0 7 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>向右-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1036.000000, -1166.000000)" fill="#454A56" fill-rule="nonzero">
+            <g id="向右-3" transform="translate(1036.000000, 1166.000000)">
+                <polygon id="Shape" points="4.00680378 4.00829115 4.00680378 5.99807436 2.00788222 5.99807436 2.00788222 7.99699592 4.00680378 7.99699592 4.00680378 6.00721273 6.00570949 6.00721273 6.00570949 4.00829115"></polygon>
+                <polygon id="Shape" points="2.00788222 2.00936958 2.00788222 0.010463876 0.00896065116 0.010463876 0.00896065116 2.00936958 2.00788222 2.00936958 2.00788222 4.00829115 4.00680378 4.00829115 4.00680378 2.00936958"></polygon>
+                <polygon id="Shape" points="0.00896065116 7.99699592 2.00788222 7.99699592 2.00788222 9.99591749 0.00896065116 9.99591749 0.00896065116 7.99699592"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

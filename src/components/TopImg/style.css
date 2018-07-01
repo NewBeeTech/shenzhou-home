@@ -1,0 +1,25 @@
+/* 头图 */
+.TopImg-img {
+  position: relative;
+  width: 100vw;
+  height: 22.3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TopImg-img-title {
+  width: 80vw;
+  color: #fff;
+  border-left: 10px solid #fff;
+  padding-left: 20px;
+  overflow: hidden;
+}
+.TopImg-img-title div:first-child {
+  font-size: 1rem;
+}
+.TopImg-img-title div:last-child {
+  font-size: 2.2rem;
+  font-weight: 500;
+}

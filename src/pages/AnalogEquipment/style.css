@@ -1,0 +1,133 @@
+
+@media screen and (max-width: 900px) {
+    .analog-equipment-title {
+        padding: 1rem 0;
+        background: #F6F6F6;
+    }
+    
+    .analog-equipment-div1 {
+        padding: 2rem 10vw;
+        background: #F6F6F6;
+    }
+    
+    .analog-equipment-div2 {
+        padding: 2rem 10vw;
+        background: #233141;
+    }
+    
+    .analog-equipment-div3 {
+        padding: 2rem 10vw;
+    }
+    
+    .analog-equipment-div1 > div, .analog-equipment-div2 > div{
+        width: 80vw;
+    }
+    
+    .analog-equipment-div1 > div > img, .analog-equipment-div2 > div > img {
+        width: 100%;
+    }
+    
+    .analog-equipment-text-div {
+       padding: 2rem 0;
+    }
+    
+    .analog-equipment-text-title {
+        font-size:2rem;
+        font-family:PingFangSC-Medium;
+        color:rgba(35,49,65,1);
+        margin-bottom: 1rem;
+    }
+    
+    .analog-equipment-text-content {
+        font-size:1rem;
+        font-family:PingFangSC-Regular;
+        color:rgba(96,111,128,1);
+        line-height:2rem;
+    }
+    
+    .analog-equipment-text-title2 {
+        font-size:2rem;
+        font-family:PingFangSC-Medium;
+        color:#FFFFFF;
+        margin-bottom: 1rem;
+    }
+    
+    .analog-equipment-text-content2 {
+        font-size:1rem;
+        font-family:PingFangSC-Regular;
+        color:#FFFFFF;
+        line-height:2rem;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+
+    .analog-equipment-title {
+        padding: 3rem 0;
+        background: #F6F6F6;
+    }
+    
+    .analog-equipment-div1 {
+        padding: 5rem 10vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #F6F6F6;
+    }
+    
+    .analog-equipment-div2 {
+        padding: 5rem 10vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #233141;
+    }
+    
+    .analog-equipment-div3 {
+        padding: 4rem 10vw;
+    }
+    
+    .analog-equipment-div1 > div, .analog-equipment-div2 > div{
+        width: 35vw;
+    }
+    
+    .analog-equipment-div1 > div > img, .analog-equipment-div2 > div > img {
+        width: 100%;
+    }
+    
+    .analog-equipment-text-div {
+        height: 21.9vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .analog-equipment-text-title {
+        font-size:2rem;
+        font-family:PingFangSC-Medium;
+        color:rgba(35,49,65,1);
+    }
+    
+    .analog-equipment-text-content {
+        font-size:1rem;
+        font-family:PingFangSC-Regular;
+        color:rgba(96,111,128,1);
+        line-height:2rem;
+    }
+    
+    .analog-equipment-text-title2 {
+        font-size:2rem;
+        font-family:PingFangSC-Medium;
+        color:#FFFFFF;
+        text-align: right;
+    }
+    
+    .analog-equipment-text-content2 {
+        font-size:1rem;
+        font-family:PingFangSC-Regular;
+        color:#FFFFFF;
+        line-height:2rem;
+    }
+
+}
