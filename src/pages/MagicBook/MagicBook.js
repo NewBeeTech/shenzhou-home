@@ -7,6 +7,8 @@ import CommonTitle from '../../components/CommonTitle';
 import CompositionBody from '../../components/CompositionBody'
 import Carousel from '../../components/Carousel'
 import { projectData, compositionData, anliData, zichengData } from './MagicBookData';
+import { dispatch } from '../../store';
+import { push } from 'react-router-redux';
 
 import topImg from '../../assets/images/magic-book-bg.png';
 import magicImg from '../../assets/images/magic-book-img1.png';
@@ -28,7 +30,11 @@ class MagicBook extends Component {
     if(data) {
       data.map((item, key) => {
         views.push(
-          <div key={key} className="max-sim-anli-item">
+          <div key={key} className="max-sim-anli-item"
+            onClick={() => {
+              dispatch(push(item.url))
+            }}
+          >
             <div className="max-sim-anli-img"><img src={item.img} alt="" /></div>
             <div>{item.title}</div>
           </div>

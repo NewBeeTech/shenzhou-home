@@ -57,16 +57,20 @@ export const compositionData = [{
  
 export const anliData = [{
     title: '直升机特情处置虚拟训练系统',
-    img: icon7
+    img: icon7,
+    url: '/helicopter-system'
   }, {
     title: '坦克机动作战协同虚拟训练系统',
-    img: icon8
+    img: icon8,
+    url: '/tank-system'
   }, {
     title: '水面舰艇损管虚拟训练系统',
-    img: icon9
+    img: icon9,
+    url: '/naval-vessels'
   }, {
     title: '发射车虚拟操作训练系统',
-    img: icon10
+    img: icon10,
+    url: '/car-launcher'
   }]
 
 
