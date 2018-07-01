@@ -37,6 +37,8 @@ class Basics extends Component {
             <div className="asics-right-more-button2">教程与讨论</div>
         </div>
       );
+    }else {
+      view.push(<div />)
     }
     return view;
   }

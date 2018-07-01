@@ -11,19 +11,19 @@ import ResolveImg7 from '../../assets/images/resolve7.svg';
 import ResolveImg8 from '../../assets/images/resolve8.svg';
 
 const list = [{
-  content: '陆军航空兵战术对抗模拟训练系统',
+  content: '陆军兵种战术对抗训练模拟系统',
   icon: ResolveImg1,
   hoverIcon: ResolveImg2,
 }, {
-  content: '直升机中停车特情处置虚拟训练',
+  content: '直升机特情处置虚拟训练系统',
   icon: ResolveImg2,
   hoverIcon: bgImg,
 }, {
-  content: '坦克机动作战协同虚拟训练',
+  content: '坦克机动作战协同虚拟训练系统',
   icon: ResolveImg3,
   hoverIcon: bgImg,
 }, {
-  content: '新型编制单元作战能效仿真系统',
+  content: '新型编制单元作战效能仿真系统',
   icon: ResolveImg4,
   hoverIcon: bgImg,
 }, {
@@ -31,11 +31,11 @@ const list = [{
   icon: ResolveImg5,
   hoverIcon: bgImg,
 }, {
-  content: '水面舰艇损害虚拟训练系统',
+  content: '水面舰艇损管虚拟训练系统',
   icon: ResolveImg6,
   hoverIcon: bgImg,
 }, {
-  content: '海军训练信息系统仿真平台',
+  content: '海军教练监控系统',
   icon: ResolveImg7,
   hoverIcon: bgImg,
 }, {

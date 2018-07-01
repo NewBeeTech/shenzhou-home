@@ -16,7 +16,7 @@ const leftList = [{
   content: '北京市海淀区中关村军民融合产业园B座一层',
 }, {
   icon: mail,
-  content: 'info@maficode.com',
+  content: 'info@magicode.com',
 }]
 const rightList1 = [
   { content: '企业文化', url: '/corporate-culture' },
@@ -34,13 +34,13 @@ const rightList3 = [
   { content: 'MagicWG', url: '/magic-wg' },
   { content: '飞行模拟器', url: '/analog-equipment' },
   { content: '装甲车模拟器', url: '/analog-equipment' },
-  { content: '炮兵模拟器', url: '/analog-equipment' },
+  { content: '迫击炮模拟器', url: '/analog-equipment' },
   { content: '职业教育在线课程', url: '' },
 ]
 const rightList4 = [
   { content: '陆军兵种战术对抗训练模拟系统', url: '/army-system' },
-  { content: '直升机控制停车特情处理模拟训练', url: '/helicopter-system' },
-  { content: '坦克机动车战协同虚拟训练', url: '/tank-system' },
+  { content: '直升机特情处置虚拟训练系统', url: '/helicopter-system' },
+  { content: '坦克机动作战协同虚拟训练系统', url: '/tank-system' },
   { content: '水面舰艇损管虚拟训练系统', url: '/naval-vessels' },
   { content: '空军作战指挥训练仿真系统', url: '/simulation-system' },
 ]
@@ -95,7 +95,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className="Footer-right-item">
-            <span>核心平台</span>
+            <span>基础平台</span>
             <div className="Footer-right-list">
               {this.renderRightList(rightList2)}
             </div>
@@ -107,7 +107,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className="Footer-right-item">
-            <span>成功案例</span>
+            <span>解决方案</span>
             <div className="Footer-right-list">
               {this.renderRightList(rightList4)}
             </div>
