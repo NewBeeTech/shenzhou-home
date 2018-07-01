@@ -2,6 +2,10 @@ import './style.css';
 // import './animate.min.css';
 // import './default.css';
 import React, { Component } from 'react';
+
+import { dispatch } from '../../store';
+import { push } from 'react-router-redux';
+
 import bgImg1 from '../../assets/images/basics-img1.svg';
 import bgImg2 from '../../assets/images/basics-img2.svg';
 import bgImg3 from '../../assets/images/basics-img3.svg';
@@ -25,35 +29,36 @@ const list = [{
   img: ProductImg1,
   bgImg: bgImg1,
   content: '电子沙盘推演系统',
-  link: 'http://www.baidu.com',
+  link: '/magic-st',
 }, {
   title: 'MagicWG',
   img: ProductImg2,
   bgImg: bgImg2,
   content: '计算机兵棋推演系统',
-  link: 'http://www.baidu.com',
+  link: '/magic-wg',
 },{
   title: '飞行模拟器',
   img: ProductImg4,
   bgImg: bgImg1,
   content: '旋转翼、固定翼、战术型、全任务型等， 能够进行战术模拟训练、飞行驾驶技术模拟训练、武器攻击模拟训练、战场环境模拟训练，具 有较高的逼真度。',
-  link: 'http://www.baidu.com',
+  link: '/analog-equipment',
 }, {
   title: '装甲车模拟器',
   img: ProductImg5,
   bgImg: bgImg2,
   content: '模拟训练装备',
-  link: 'http://www.baidu.com',
+  link: '/analog-equipment',
 }, {
   title: '迫击炮模拟器',
   img: ProductImg6,
   bgImg: bgImg3,
   content: '模拟训练装备',
-  link: 'http://www.baidu.com',
+  link: '/analog-equipment',
 }]
 class Product extends Component {
   routeToDetails (url) {
     console.log(url);
+    dispatch(push(url))
   }
   renderList () {
     const view = [];

@@ -2,6 +2,8 @@ import './style.css';
 // import './animate.min.css';
 // import './default.css';
 import React, { Component } from 'react';
+import { dispatch } from '../../store';
+import { push } from 'react-router-redux';
 import bgImg1 from '../../assets/images/basics-bg.svg';
 import bgImg2 from '../../assets/images/basics-bg2.png';
 import arrowRight from '../../assets/images/arrow-right.svg';
@@ -56,8 +58,10 @@ class Basics extends Component {
               {this.showLeftButton(item.title)}
               <a
                 className="Basics-right-more"
-                href={item.moreUrl}
-                // onClick={() => this.getMore(item.moreUrl)}
+                // href={item.moreUrl}
+                onClick={() => {
+                  dispatch(push(item.moreUrl))
+                }}
               >查看更多 <img src={arrowRight} alt="arrow-right"/></a>
             </div>
           </div>
