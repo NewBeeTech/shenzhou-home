@@ -7,9 +7,9 @@ import { push } from 'react-router-redux';
 import bgImg1 from '../../assets/images/basics-bg.svg';
 import bgImg2 from '../../assets/images/basics-bg2.png';
 import arrowRight from '../../assets/images/arrow-right.svg';
-import basicsImg1 from '../../assets/images/basics-img1.png';
-import basicsImg2 from '../../assets/images/basics-img2.png';
-import basicsImg3 from '../../assets/images/basics-img3.png';
+import basicsImg1 from '../../assets/images/basics-img6.png';
+import basicsImg2 from '../../assets/images/basics-img7.png';
+import basicsImg3 from '../../assets/images/basics-img8.png';
 
 const list = [{
   title: 'MAXSim仿真平台',
