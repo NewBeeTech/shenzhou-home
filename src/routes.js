@@ -37,7 +37,7 @@ import MilitaryIndustrialEnterprises from './pages/MilitaryIndustrialEnterprises
 
 const routes = (
   <Switch>
-    <Route path="/" component={Home} />
+    <Route path="/home" component={Home} />
     {/* 加入我们 */}
     <Route path="/join-us" component={JoinUs} />
     {/* 技术支持 */}
@@ -95,6 +95,7 @@ const routes = (
     <Route path="/early-warning" component={EarlyWarning} />
     {/* 军工企业案例  */}
     <Route path="/military-industrial-enterprises" component={MilitaryIndustrialEnterprises} />
+    <Route  component={Home} />
   </Switch>
 );
 
