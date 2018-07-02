@@ -47,7 +47,7 @@ const list = [{
   title: '飞行模拟器',
   img: ProductImg4,
   bgImg: bgImg3,
-  subTitle: '飞行模拟器模式',
+  subTitle: '模拟训练装备',
   content: '旋转翼、固定翼、战术型、全任务型等， 能够进行战术模拟训练、飞行驾驶技术模拟训练、武器攻击模拟训练、战场环境模拟训练，具 有较高的逼真度。',
   link: '/analog-equipment',
 }, {
