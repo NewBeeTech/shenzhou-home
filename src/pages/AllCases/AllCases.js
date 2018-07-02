@@ -57,46 +57,36 @@ const list = [{
     icon: ResolveImg8,
     hoverIcon: bgImg,
     url: '/submarine-system'
-  }, { 
-      content: 'MAXSim仿真平台',
-      icon: ResolveImg1,
-      hoverIcon: bgImg,
-       url: '/max-sim'
-  }, { 
-      content: 'MagicBook虚拟仿真平台',
+  },{
+      content: '新型作战平台作战战法研究系统',
       icon: ResolveImg2,
       hoverIcon: bgImg,
-      url: '/magic-book'
+      url: '/combat-platform'
    }, { 
-      content: 'MagicIETM交互式电子手册平台', 
+      content: '空军作战指挥训练仿真系统', 
       icon: ResolveImg3,
       hoverIcon: bgImg,
-      url: '/magic-IETM'
+      url: '/air-force'
    }, { 
-       content: 'MagicST',
+       content: '发射车虚拟操作训练',
        icon: ResolveImg4,
        hoverIcon: bgImg,
-       url: '/magic-st' 
+       url: '/car-launcher' 
     }, { 
-        content: 'MagicWG', 
+        content: '火箭军战术训练模拟系统', 
         icon: ResolveImg5,
         hoverIcon: bgImg,
-        url: '/magic-wg'
+        url: '/rocket-system'
      }, { 
-         content: '飞行模拟器',
+         content: '空间态势感知信息保障仿真系统',
          icon: ResolveImg6,
          hoverIcon: bgImg,
-         url: '/analog-equipment'
+         url: '/space-situation'
      }, { 
-         content: '装甲车模拟器', 
+         content: '军工企业案例', 
          icon: ResolveImg7,
          hoverIcon: bgImg,
-         url: '/analog-equipment'
-     }, { 
-         content: '迫击炮模拟器',
-         icon: ResolveImg8,
-         hoverIcon: bgImg,
-         url: '/analog-equipment'
+         url: '/military-industrial-enterprises'
      }]
 
 
