@@ -33,6 +33,7 @@ import CombatPlatform from './pages/CombatPlatform'
 import AirForce from './pages/AirForce'
 import SpaceSituation from './pages/SpaceSituation'
 import MilitaryIndustrialEnterprises from './pages/MilitaryIndustrialEnterprises'
+import AllCases from './pages/AllCases'
 
 
 const routes = (
@@ -95,6 +96,9 @@ const routes = (
     <Route path="/early-warning" component={EarlyWarning} />
     {/* 军工企业案例  */}
     <Route path="/military-industrial-enterprises" component={MilitaryIndustrialEnterprises} />
+
+    <Route path="/all-case" component={AllCases} />
+
     <Route  component={Home} />
   </Switch>
 );

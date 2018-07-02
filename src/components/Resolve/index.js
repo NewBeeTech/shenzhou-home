@@ -56,7 +56,7 @@ const list = [{
 }]
 class Resolve extends Component {
   showAll () {
-    dispatch(push(''))
+    dispatch(push('/all-case'))
   }
   renderList () {
     const view = [];
