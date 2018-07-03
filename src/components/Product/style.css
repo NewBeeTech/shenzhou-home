@@ -82,10 +82,11 @@
 }
 .Product-item:hover .Product-item-img {
   margin-top: 1rem;
-
 }
 
 .Product-item-img {
+  width: 5rem;
+  height: 5rem;
   margin-top: 2rem;
   flex-grow: 1;
 }

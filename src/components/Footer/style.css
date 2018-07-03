@@ -26,15 +26,20 @@
   }
   .Footer-left-item {
     display: flex;
-    line-height: 3em;
+    line-height: 5em;
   }
   .Footer-left-content {
     margin-left: 0.6rem;
   }
 
+  .Footer-left-content-addres {
+    margin-left: 0.6rem;
+    line-height: 1.5em;
+  }
+
   .Footer-middle {
     margin: 0 2rem;
-    height: 15rem;
+    height: 22rem;
     width: 2px;
     background: rgba(78,92,108,1);
   }
@@ -92,6 +97,11 @@
     line-height: 3em;
   }
   .Footer-left-content {
+    margin-left: 0.6rem;
+  }
+
+
+  .Footer-left-content-addres {
     margin-left: 0.6rem;
   }
 

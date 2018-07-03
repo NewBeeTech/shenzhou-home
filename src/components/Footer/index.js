@@ -55,7 +55,7 @@ class Footer extends Component {
       view.push(
         <div key={index} className="Footer-left-item">
           <img src={item.icon} alt="Footer-left-icon" />
-          <div className="Footer-left-content">{item.content}</div>
+          <div className={item.content === '北京市海淀区中关村军民融合产业园B座一层' ? 'Footer-left-content-addres' : 'Footer-left-content'}>{item.content}</div>
         </div>
       )
       return item;
