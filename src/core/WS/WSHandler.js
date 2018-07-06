@@ -22,13 +22,11 @@ const _param = (params: {}): string => {
 };
 
 export const GET = async (path: string, params = {}) => {
-  console.log('path', path)
   const paramsWithToken = Object.assign(
     {},
     params,
   );
   const RequestURL = _param(paramsWithToken) ? `${path}?${_param(paramsWithToken)}` : path;
-  console.log('RequestURL', RequestURL);
   try {
     const response = await fetch(RequestURL, {
       method: 'GET',
@@ -37,7 +35,6 @@ export const GET = async (path: string, params = {}) => {
       mode: 'cors',
       credentials: 'include',
     });
-    console.log('response:', response)
     const result = await response.json();
     return result;
   } catch (err) {
