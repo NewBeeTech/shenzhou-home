@@ -9,7 +9,7 @@ export const leaveMsg = (params: Object) => (dispatch) => {
   const result = GET(APIURL, params);
   AsyncFetchHandler(LEAVE_MSG, result, dispatch);
   result.then(data => {
-    if (data.status == '200') {
+    if (data.code == '200') {
       message.info('提交成功')
     } else {
       message.info(data.message)
