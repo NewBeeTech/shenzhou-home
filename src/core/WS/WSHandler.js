@@ -37,6 +37,7 @@ export const GET = async (path: string, params = {}) => {
       mode: 'cors',
       credentials: 'include',
     });
+    const result = await response.json();
     return result;
   } catch (err) {
     return {
