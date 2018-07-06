@@ -21,7 +21,7 @@ const leftList = [{
 const rightList1 = [
   { content: '企业文化', url: '/corporate-culture' },
   { content: '技术支持', url: '/technical-support' },
-  { content: '关于我们', url: '/dynamic' },
+  // { content: '关于我们', url: '/dynamic' },
   { content: '加入我们', url: '/join-us' }
 ]
 const rightList2 = [
