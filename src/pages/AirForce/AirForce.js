@@ -31,7 +31,7 @@ class AirForce extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="空军作战指挥训练仿真系统" subTitle="AIR FORCE OPERATIONAL COMMAND AND TRAINING SIMULATION SYSTEM" />

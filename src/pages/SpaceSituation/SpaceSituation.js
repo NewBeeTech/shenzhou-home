@@ -29,7 +29,7 @@ class SpaceSituation extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="空间态势感知信息保障仿真系统" subTitle="SPATIAL SITUATIONAL AWARENESS INFORMATION SUPPORT SIMULATION SYSTEM" />

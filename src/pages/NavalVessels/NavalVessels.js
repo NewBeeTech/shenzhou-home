@@ -26,7 +26,7 @@ class NavalVessels extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="水面舰艇损管虚拟训练系统" subTitle="SURFACE SHIP DAMAGE CONTROL VIRTUAL TRAINING SYSTEM" />

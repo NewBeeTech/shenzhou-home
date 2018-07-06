@@ -26,7 +26,7 @@ class CoachMonitoring extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="教练监控系统" subTitle="TRAINING MONITORNING SYSTEM" />

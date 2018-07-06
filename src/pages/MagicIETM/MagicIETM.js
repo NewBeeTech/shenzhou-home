@@ -33,7 +33,7 @@ class MagicIETM extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="basics" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="MagicIETM交互式电子手册平台" subTitle="MAGICIETM INTERACTIVE ELECTRONIC TECHNICAL MANUAL PLATFORM" />

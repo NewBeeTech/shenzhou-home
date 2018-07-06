@@ -13,7 +13,7 @@ class JoinUs extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="join-us" />
+          <Nav selected="aboutus" />
         </div>
         <div className="JoinUs-body">
           <TopImg topImg={topImg} title="加入我们" subTitle="JOIN US" />

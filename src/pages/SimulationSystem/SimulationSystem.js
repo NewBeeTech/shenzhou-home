@@ -27,7 +27,7 @@ class SimulationSystem extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="新型编制单元作战效能仿真系统" subTitle="COMBAT EFFECTIVENESS SIMULATION SYSTEM" />

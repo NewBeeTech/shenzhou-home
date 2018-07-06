@@ -66,7 +66,7 @@ class MagicBook extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="basics" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="MagicBook虚拟仿真平台" subTitle="MAGICBOOK VIRTUAL SIMULATION PLATFORM" />

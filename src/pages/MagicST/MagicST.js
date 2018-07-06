@@ -16,7 +16,7 @@ class MagicST extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="product" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="MagicST电子沙盘推演系统" subTitle="MagicST ELECTRONIC SAND TABLE DEDUCTION SYSTEM" />

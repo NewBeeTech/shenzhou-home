@@ -26,7 +26,7 @@ class TankSystem extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="坦克机动作战协同虚拟训练系统" subTitle="COLLABORATIVE VIRTUAL TRAINING OF TANK MANEUVER SYSTEM" />

@@ -26,7 +26,7 @@ class CarLauncher extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="发射车虚拟操作训练系统" subTitle="MISSILE LAUNCH VEHICLE VIRTUAL OPERATION TRAINING" />

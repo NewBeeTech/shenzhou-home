@@ -26,7 +26,7 @@ class SubmarineSystem extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="海军潜艇作战推演系统" subTitle="NAVAL SUBMARINE WARFARE PROPULSION SYSTEM" />

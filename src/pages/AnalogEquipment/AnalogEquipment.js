@@ -14,7 +14,7 @@ class AnalogEquipment extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="product" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="模拟训练装备" subTitle="EQUIPMENT SIMULATORS" />

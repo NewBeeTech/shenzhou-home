@@ -28,7 +28,7 @@ class CombatPlatform extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="新型作战平台战法研究系统" subTitle="THE RESEARCH SYSTEM OF COMBAT TACTICS IN A NEW COMBAT PLATFOR" />

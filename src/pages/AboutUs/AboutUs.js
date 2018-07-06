@@ -27,7 +27,7 @@ class AboutUs extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="aboutus" />
         </div>
         <div className="JoinUs-body">
           <TopImg topImg={topImg} title="公司资质" subTitle="Company qualification" />

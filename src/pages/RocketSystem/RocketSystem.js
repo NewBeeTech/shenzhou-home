@@ -16,7 +16,7 @@ class RocketSystem extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="火箭军战术训练模拟系统" subTitle="ROCKET TROOPS TACTICAL TRAINING SIMULATION SYSTEM" />

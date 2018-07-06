@@ -45,7 +45,7 @@ class ArmySystem extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="陆军兵种战术对抗训练模拟系统" subTitle="ARMY TACTICAL CONFRONTATION TRAINING SIMULATION SYSTEM" />

@@ -31,7 +31,7 @@ class MilitaryIndustrialEnterprises extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="军工企业案例" subTitle="MILITARY ENTERPRISE CASE" />

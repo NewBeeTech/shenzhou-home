@@ -54,7 +54,7 @@ class MAXSim extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="basics" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="MAXSim仿真平台" subTitle="MAXSIM SIMULATION PLATFORM" />

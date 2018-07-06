@@ -33,7 +33,7 @@ class EarlyWarning extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="resolve" />
         </div>
         <div className="JoinUs-body">
           <TopImgForMagic topImg={topImg} title="预警指挥平台模拟训练系统" subTitle="EARLY WARNING AND COMMAND SIMULATION TRAINING SYSTEM" />

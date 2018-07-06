@@ -163,7 +163,7 @@ class Nav extends Component {
               onClick={() => {
                 this.handleList('aboutus')
                 this.setData(aboutusData, false)
-                // dispatch(push('/technical-support'))
+                dispatch(push('/about-us'))
               }}
               onMouseOver={() => this.setData(aboutusData, true)}
               onMouseOut={() => this.setData(aboutusData, false)}
