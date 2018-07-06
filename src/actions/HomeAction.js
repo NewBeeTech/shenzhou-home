@@ -13,12 +13,14 @@ export const leaveMsg = (params: Object, callBack) => (dispatch) => {
       notification.success({
         message: '提交成功',
         description: '',
+        duration: 2,
       });
       callBack()
     } else {
       notification.success({
         message: '提交成功',
         description: data.message,
+        duration: 2,
       });
       // message.info(data.message)
     }
