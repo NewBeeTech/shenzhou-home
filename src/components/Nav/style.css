@@ -70,7 +70,8 @@
 		margin: 0;
 		text-align: center;
 	  list-style: none;
-	  padding: 0 10px;
+	  /* padding: 0 10px; */
+	  margin: 0 10px;
 	  float: left;
 	  height: 70px;
 	  font-size: 16px;
@@ -161,7 +162,8 @@
 		margin: 0;
 		text-align: center;
 	  list-style: none;
-	  padding: 0 10px;
+	  /* padding: 0 10px; */
+	  margin: 0 10px;
 	  float: left;
 	  height: 50px;
 	  font-size: 14px;
