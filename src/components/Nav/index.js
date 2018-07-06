@@ -162,6 +162,7 @@ class Nav extends Component {
               className={this.state.selected === 'aboutus' ? 'tab-current' : ''}
               onClick={() => {
                 this.handleList('aboutus')
+                this.setData(aboutusData, false)
                 // dispatch(push('/technical-support'))
               }}
               onMouseOver={() => this.setData(aboutusData, true)}
