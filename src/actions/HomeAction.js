@@ -5,12 +5,13 @@ import { message } from 'antd';
 const APIURL = `http://${window.location.host}/api/user/leaveMsg`
 
 export const LEAVE_MSG = 'LEAVE_MSG';
-export const leaveMsg = (params: Object) => (dispatch) => {
+export const leaveMsg = (params: Object, callBack) => (dispatch) => {
   const result = GET(APIURL, params);
   AsyncFetchHandler(LEAVE_MSG, result, dispatch);
   result.then(data => {
     if (data.code == '200') {
       message.info('提交成功')
+      callBack()
     } else {
       message.info(data.message)
     }

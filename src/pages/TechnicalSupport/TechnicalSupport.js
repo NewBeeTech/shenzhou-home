@@ -72,7 +72,14 @@ class TechnicalSupport extends Component {
                     email: this.state.email,
                     desc: this.state.desc,
                   }
-                  dispatch(HomeAction.leaveMsg(params))
+                  dispatch(HomeAction.leaveMsg(params, () => {
+                    this.setState({
+                      name: '',
+                      title: '',
+                      email: '',
+                      desc: '',
+                    })
+                  }))
                }}
             >确认提交</div>
           </div>
