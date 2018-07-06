@@ -7,6 +7,7 @@ const APIURL = `http://${window.location.host}/api/user/leaveMsg`
 export const LEAVE_MSG = 'LEAVE_MSG';
 export const leaveMsg = (params: Object, callBack) => (dispatch) => {
   const result = GET(APIURL, params);
+  console.log('result', result)
   AsyncFetchHandler(LEAVE_MSG, result, dispatch);
   result.then(data => {
     if (data.code == '200') {
@@ -18,4 +19,5 @@ export const leaveMsg = (params: Object, callBack) => (dispatch) => {
   }).catch((err) => {
     console.warn('网络请求失败 ', err);
   });
+
 };

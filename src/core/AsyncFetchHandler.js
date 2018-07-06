@@ -17,6 +17,7 @@ const AsyncFetchHandler = (
   });
   fetchResultPromise
     .then(data => {
+      console.log('data.code:', data.code)
       if (data.code == '200') {
         dispatch({
           type: FetchState.SUCCESS(actionName),
