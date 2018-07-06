@@ -31,7 +31,7 @@
 .nav-menu > div {
 	width: 33%;
 	margin: 1rem 0;
-	padding-left: 3rem;
+	padding-left: 5rem;
 	cursor: pointer;
 }
 
@@ -70,7 +70,7 @@
 		margin: 0;
 		text-align: center;
 	  list-style: none;
-	  padding: 0 20px;
+	  padding: 0 10px;
 	  float: left;
 	  height: 70px;
 	  font-size: 16px;
@@ -90,7 +90,7 @@
 		color: #ae0000;
 	}
 
-	.tabs-style-linemove nav li:last-child::before {
+	/* .tabs-style-linemove nav li:last-child::before {
 		position: absolute;
 		bottom: 0;
 		right: 12px;
@@ -101,7 +101,7 @@
 	  background: #ae0000;
 	  border-radius: 2px;
 		transform: translate3d(0,0,0);
-	}
+	} */
 
 	/* Move the line */
 	.tabs-style-linemove nav li:nth-child(1).tab-current ~ li:last-child::before {
@@ -129,6 +129,7 @@
 	.tabs-style-linemove nav li.tab-current {
 	  font-weight: 600;
 		color: #ae0000;
+	  border-bottom: 5px solid #ae0000;
 	}
 }
 @media screen and (min-width: 700px) and (max-width: 900px) {
@@ -176,7 +177,7 @@
 	  color:inherit;
 	}
 
-	.tabs-style-linemove nav li:last-child::before {
+	/* .tabs-style-linemove nav li:last-child::before {
 		position: absolute;
 		bottom: 0;
 		right: 8px;
@@ -187,7 +188,7 @@
 	  background: #ae0000;
 	  border-radius: 2px;
 		transform: translate3d(0,0,0);
-	}
+	} */
 
 	/* Move the line */
 	.tabs-style-linemove nav li:nth-child(1).tab-current ~ li:last-child::before {
@@ -216,6 +217,7 @@
 	.tabs-style-linemove nav li.tab-current {
 	  font-weight: 600;
 		color: #ae0000;
+		border-bottom: 5px solid #ae0000;
 	}
 
 }

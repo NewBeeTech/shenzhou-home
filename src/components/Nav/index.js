@@ -72,6 +72,14 @@ const allCaseData =  [{
       url: '/military-industrial-enterprises'
    }]
 
+
+   const aboutusData = [ 
+    { name: '企业文化', url: '/corporate-culture' },
+    { name: '技术支持', url: '/technical-support' },
+    { name: '加入我们', url: '/join-us' }
+    ]
+
+
 class Nav extends Component {
   state = {
     data: [],
@@ -150,6 +158,15 @@ class Nav extends Component {
               onMouseOver={() => this.setData(allCaseData, true)}
               onMouseOut={() => this.setData(allCaseData, false)}
             ><a href="/#resolve">解决方案</a></li>
+            <li
+              className={this.state.selected === 'aboutus' ? 'tab-current' : ''}
+              onClick={() => {
+                this.handleList('aboutus')
+                // dispatch(push('/technical-support'))
+              }}
+              onMouseOver={() => this.setData(aboutusData, true)}
+              onMouseOut={() => this.setData(aboutusData, false)}
+            ><a>关于我们</a></li>
 						<li
               className={this.state.selected === 'support' ? 'tab-current' : ''}
               onClick={() => {

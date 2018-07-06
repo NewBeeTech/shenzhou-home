@@ -1,21 +1,20 @@
-import Tinker from '../lib/tinker/src/index';
-import reduxTinker from '../lib/tinker/src/reduxTinker';
-import { dispatch } from '../store';
+import {GET} from '../core/WS/WSHandler';
+import AsyncFetchHandler from '../core/AsyncFetchHandler';
 import { message } from 'antd';
 
-const APIURL = `http://${window.location.host}/api/`
+const APIURL = `http://${window.location.host}/api/user/leaveMsg`
 
 export const LEAVE_MSG = 'LEAVE_MSG';
-export const leaveMsg = (params) => {
-  console.log('params:', params)
-  const fetchHandler = new Tinker(
-    `${APIURL}user/leaveMsg`,
-    {
-      method: 'GET',
-    },
-    params,
-  ).success(result => {
-    message.info('提交成功')
-  });;
-  reduxTinker(fetchHandler, LEAVE_MSG, dispatch).start();
+export const leaveMsg = (params: Object) => (dispatch) => {
+  const result = GET(APIURL, params);
+  AsyncFetchHandler(LEAVE_MSG, result, dispatch);
+  result.then(data => {
+    if (data.status == '200') {
+      message.info('提交成功')
+    } else {
+      message.info(data.message)
+    }
+  }).catch((err) => {
+    console.warn('网络请求失败 ', err);
+  });
 };
