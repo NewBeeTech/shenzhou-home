@@ -21,6 +21,4 @@ export const leaveMsg = (params: Object, callBack) => (dispatch) => {
     console.warn('网络请求失败 ', err);
   });
   AsyncFetchHandler(LEAVE_MSG, result, dispatch);
-  
-
 };
