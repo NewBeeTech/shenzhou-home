@@ -21,7 +21,7 @@ export const data = [{
 }, {
   corporateName: '南京分公司',
   corporateAddress: '地址：江苏省南京市雨花台区大周路32号科创城D2北3层',
-  corporatePhone: '电话：15300307792',
+  corporatePhone: '电话：025-52608660‬',
 }, {
   corporateName: '长沙分公司',
   corporateAddress: '地址：长沙市开福区双拥路科大家园北苑17栋2603',
