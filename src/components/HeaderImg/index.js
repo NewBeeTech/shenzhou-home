@@ -1,6 +1,8 @@
 import './style.css';
 import React, { Component } from 'react';
 import headImg from '../../assets/images/header-img.png';
+import { dispatch } from '../../store';
+import { push } from 'react-router-redux';
 
 
 class Header extends Component {
@@ -9,15 +11,27 @@ class Header extends Component {
       <div className="Header-img" style={{backgroundImage: `url(${headImg})`, backgroundSize: 'cover'}}>
         <a name={this.props.name} id={this.props.name}> </a>
         <div className="Header-img-bottom">
-          <div className="Header-img-item animated bounceIn">
+          <div className="Header-img-item animated bounceIn"
+            onClick={() => {
+              dispatch(push('/max-sim'))
+            }}
+          >
             <div>MAXSim</div>
             <div>仿真平台</div>
           </div>
-          <div className="Header-img-item animated bounceIn">
+          <div className="Header-img-item animated bounceIn"
+            onClick={() => {
+              dispatch(push('/magic-book'))
+            }}
+          >
             <div>MagicBook</div>
             <div>虚拟仿真平台</div>
           </div>
-          <div className="Header-img-item animated bounceIn">
+          <div className="Header-img-item animated bounceIn"
+              onClick={() => {
+                dispatch(push('/magic-IETM'))
+              }}
+          >
             <div>MagiclETM</div>
             <div>交互式电子手册平台</div>
           </div>

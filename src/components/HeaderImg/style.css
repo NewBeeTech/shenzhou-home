@@ -30,6 +30,10 @@
   justify-content: center;
 }
 
+.Header-img-item > div {
+  cursor: pointer;
+}
+
 .Header-img-bottom .Header-img-item div:last-child {
   font-size: 1rem;
   font-family: ArialUnicodeMS;

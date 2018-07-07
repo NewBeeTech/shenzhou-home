@@ -15,7 +15,7 @@ const list = [{
   title: 'MAXSim仿真平台',
   img: basicsImg1,
   moreUrl: '/max-sim',
-  content: 'MAXSim是我公司基于先进的GBB技术和DMAS技术的系统架构研发完成的自主可控分布式仿真平台，实现了巨大实体数量（100万个）的实时仿真，它具有精细全面的装备建模能力、可视化行为建模能力和强大的运行管理能力。MAXSim仿真平台提供了装备建模、行为建模、想定制作、运行监控、过程回放等一系列工具，支持模型建立、想定制作、仿真运行、数据分析等重要过程。',
+  content: 'MAXSim是神舟智汇基于先进的GBB技术和DMAS技术的系统架构研发完成的自主可控分布式仿真平台，实现了巨大实体数量（100万个）的实时仿真，它具有精细全面的装备建模能力、可视化行为建模能力和强大的运行管理能力。MAXSim仿真平台提供了装备建模、行为建模、想定制作、运行监控、过程回放等一系列工具，支持模型建立、想定制作、仿真运行、数据分析等重要过程。',
 }, {
   title: 'MagicBook虚拟仿真平台',
   img: basicsImg2,
@@ -40,7 +40,7 @@ class Basics extends Component {
             >免费试用</div>
             <div className="asics-right-more-button2"
                onClick={() => {
-                window.open('http://bbsh.magicode.cn/forum.php?mod=viewthread&tid=4&extra=page%3D1')
+                window.open('http://bbsh.magicode.cn/forum.php')
                }}
             >产品论坛</div>
         </div>
@@ -56,7 +56,11 @@ class Basics extends Component {
       view.push(
         <div key={index} className="Basics-item animated bounceIn" style={{backgroundImage: `url(${index % 2 ? bgImg2 : bgImg1})`, backgroundSize: 'cover'}}>
           <div className="Basics-item-left">
-            <div className="Basics-item-left-img" style={{backgroundImage: `url(${item.img})`, backgroundSize: 'cover'}}>
+            <div className="Basics-item-left-img" style={{backgroundImage: `url(${item.img})`, backgroundSize: 'cover'}}
+                onClick={() => {
+                  dispatch(push(item.moreUrl))
+                }}
+            >
             </div>
           </div>
           <div className="Basics-item-right">
