@@ -159,15 +159,14 @@ class Nav extends Component {
               onMouseOut={() => this.setData(allCaseData, false)}
             ><a href="/#resolve">解决方案</a></li>
             <li
-              className={this.state.selected === 'aboutus' ? 'tab-current' : ''}
+              className={this.state.selected === 'culture' ? 'tab-current' : ''}
               onClick={() => {
-                this.handleList('aboutus')
+                this.handleList('culture')
                 this.setData(aboutusData, false)
-                dispatch(push('/about-us'))
               }}
               onMouseOver={() => this.setData(aboutusData, true)}
               onMouseOut={() => this.setData(aboutusData, false)}
-            ><a>关于我们</a></li>
+            ><a href="/#culture">关于我们</a></li>
 						<li
               className={this.state.selected === 'support' ? 'tab-current' : ''}
               onClick={() => {
@@ -175,13 +174,13 @@ class Nav extends Component {
                 dispatch(push('/technical-support'))
               }}
             ><a>技术支持</a></li>
-						<li
+						{/* <li
               className={this.state.selected === 'culture' ? 'tab-current' : ''}
               onClick={() => {
                 this.handleList('culture')
                 dispatch(push('/corporate-culture'))
               }}
-            ><a>企业文化</a></li>
+            ><a>企业文化</a></li> */}
 						<li
               className={this.state.selected === 'contact' ? 'tab-current' : ''}
               onClick={() => {
@@ -211,7 +210,7 @@ class Nav extends Component {
                   技术支持
                   </a>
               </li>
-    					<li>
+    					{/* <li>
                   <a 
                     onClick={() => {
                       this.toggleNav()
@@ -220,7 +219,7 @@ class Nav extends Component {
                   >
                   企业文化
                   </a>
-               </li>
+               </li> */}
     					<li>
                   <a 
                     onClick={() => {
