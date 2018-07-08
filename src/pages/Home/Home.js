@@ -15,7 +15,7 @@ class Home extends Component {
         <div className="Home-header animated bounceInDown">
           <Nav selected="home" />
         </div>
-        <div className="Home-body">
+        <div className="Home-body anchor_fixed">
           <HeaderImg name="home" />
 
           <Title name="culture" title="北京神舟智汇科技有限公司" />

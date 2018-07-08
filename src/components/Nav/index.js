@@ -75,7 +75,8 @@ const allCaseData =  [{
 
    const aboutusData = [ 
     { name: '企业文化', url: '/corporate-culture' },
-    { name: '技术支持', url: '/technical-support' },
+    { name: '公司资质', url: '/about-us' },
+    // { name: '技术支持', url: '/technical-support' },
     { name: '加入我们', url: '/join-us' }
     ]
 
@@ -200,6 +201,7 @@ class Nav extends Component {
     					<li><a onClick={() => {this.toggleNav()}} href="/#basics">基础平台</a></li>
     					<li><a onClick={() => {this.toggleNav()}} href="/#product">主要产品</a></li>
     					<li><a onClick={() => {this.toggleNav()}} href="/#resolve">解决方案</a></li>
+              <li><a onClick={() => {this.toggleNav()}} href="/#culture">关于我们</a></li>
     					<li>
                  <a 
                    onClick={() => {
