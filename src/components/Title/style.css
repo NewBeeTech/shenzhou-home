@@ -17,3 +17,15 @@
   align-items: center;
 }
 
+.title-target {
+  position: relative;
+}
+
+.title-placeholder {
+  position: absolute;
+  width: 100vw;
+  display: block;
+  height: 8rem;
+  top: -8rem;
+}
+

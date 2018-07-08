@@ -130,7 +130,9 @@ class Nav extends Component {
 					<ul>
             <li
               className={this.state.selected === 'home' ? 'tab-current' : ''}
-              onClick={() => this.handleList('home')}
+              onClick={() => {
+                this.handleList('home')
+              }}
             ><a href="/#home">首页</a></li>
 						<li
               className={this.state.selected === 'basics' ? 'tab-current' : ''}
