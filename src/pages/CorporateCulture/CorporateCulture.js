@@ -3,7 +3,7 @@ import Nav from '../../components/Nav';
 import TopImg from '../../components/TopImg';
 import Footer from '../../components/Footer';
 import CorporateCultureTitle from './CorporateCultureTitle';
-import { data } from './CorporateCultureData';
+import { data, synopsisData } from './CorporateCultureData';
 
 import topImg from '../../assets/images/corporate-culture-bg.png';
 import IdeaImg from '../../assets/images/corporate-culture-img10.png';
@@ -18,12 +18,23 @@ class CorporateCulture extends Component {
     if(datas) {
       datas.map((item, key) => {
         views.push(
-          <div className="core-idea-item">
+          <div className="core-idea-item" key={key}>
              <div className="core-idea-item-imgdiv">
                <img src={item.img} alt="" className="core-idea-img"/>
               </div>
              <div className="core-idea-item-title">{item.title}</div>
           </div>
+        )
+      })
+    }
+    return views;
+  }
+  showSynopsis(datas) {
+    const views = [];
+    if(datas) {
+      datas.map((item, key) => {
+        views.push(
+          <div key={key} className="Corporate-synopsis-item">{item}</div>
         )
       })
     }
@@ -51,13 +62,20 @@ class CorporateCulture extends Component {
           </div>
 
           <div className="corporate-culture">
+              <CorporateCultureTitle title="公司简介" EnglishTitle="Brief Introduction"/>
+              <div className="Corporate-synopsis">
+                  {this.showSynopsis(synopsisData)}
+              </div>
+          </div>
+
+          <div className="core-idea">
               <CorporateCultureTitle title="办公环境" EnglishTitle="Office environment"/>
               <div className="core-idea-content">
                   {this.showImg(data)}
               </div>
           </div>
 
-          <div className="core-idea">
+          <div className="corporate-culture">
              <CorporateCultureTitle title="员工风采" EnglishTitle="Staff Presence"/>
              <div className="staff-presence1">
                 <img src={staffPresence1} alt="" />
