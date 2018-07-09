@@ -35,12 +35,12 @@ class Basics extends Component {
         <div className="asics-right-more-button">
             <div className="asics-right-more-button1"
                onClick={() => {
-                 window.open('http://bbsh.magicode.cn/forum.php?mod=viewthread&tid=3&extra=page%3D1')
+                 window.open('http://bbs.maxsim.cn/forum.php?mod=viewthread&tid=3&extra=')
                }}
             >免费试用</div>
             <div className="asics-right-more-button2"
                onClick={() => {
-                window.open('http://bbsh.magicode.cn/forum.php')
+                window.open('http://bbs.maxsim.cn/forum.php')
                }}
             >产品论坛</div>
         </div>
