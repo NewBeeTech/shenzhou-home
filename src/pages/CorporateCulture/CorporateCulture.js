@@ -47,7 +47,7 @@ class CorporateCulture extends Component {
           <Nav selected="culture" />
         </div>
         <div className="JoinUs-body">
-          <TopImg topImg={topImg} title="公司文化" subTitle="ABOUT US" />
+          <TopImg topImg={topImg} title="企业文化" subTitle="ABOUT US" />
 
           <div className="core-idea">
              <CorporateCultureTitle title="核心理念" EnglishTitle="Core Philosophy"/>
