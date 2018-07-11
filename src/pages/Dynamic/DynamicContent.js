@@ -7,6 +7,8 @@ import PageConent from '../../components/PageConent';
 import moment from 'moment';
 import { dispatch } from '../../store';
 import * as HomeAction from '../../actions/HomeAction';
+import topImg from '../../assets/images/dynamic-bg.png';
+
 
 
 class DynamicContent extends Component {
@@ -67,14 +69,34 @@ class DynamicContent extends Component {
             />
           </div>
           <Modal
-            closable={false}
-            maskClosable={false}
+            title={<div className="modal-title">公告详情</div>}
+            closable={true}
+            maskClosable={true}
             visible={this.state.visible}
-            footer={[]}
+            onCancel={() => {
+              this.setState({ visible: false })
+            }}
+            footer={null}
+            width={'70vw'}
+            style={{ top: 10 }}
           >
-              <div>
-                  111
-              </div>
+              <div className="modal-content">
+                <div className="dynamic-modal-title">公告详情公告详情公告详情公告详情公告详情</div>
+                <div className="modal-content-info">
+                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
+                  <div className="modal-content-img"><img src={topImg} /></div>
+                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
+                  <div className="modal-content-img"><img src={topImg} /></div>
+                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
+                  <div className="modal-content-img"><img src={topImg} /></div>
+                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
+                  <div className="modal-content-img"><img src={topImg} /></div>
+                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
+                  <div className="modal-content-img"><img src={topImg} /></div>
+                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
+                  <div className="modal-content-img"><img src={topImg} /></div>
+                </div>
+              </div>     
           </Modal>
       </div>
     );

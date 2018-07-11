@@ -5,6 +5,41 @@
   padding: 4vw 0;
 }
 
+.modal-title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #AE0000;
+  padding: 1rem 0;
+}
+
+.modal-content {
+  padding: 2vw;
+  height: 85vh;
+  overflow: scroll;
+}
+
+.dynamic-modal-title {
+  font-size: 1.4rem;
+  color: #233141;
+  text-align: center;
+}
+
+.dynamic-modal-info {
+    font-size: 1rem;
+    color: #606F80;
+    line-height: 1.6rem;
+    margin: 1vw 0;
+    
+}
+
+.modal-content-info {
+  margin: 3rem;
+}
+
+.modal-content-img, .modal-content-img> img {
+  width: 100%;
+}
+
 
 @media screen and (min-width: 500px) {
   .date-header {
