@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 
 const mapStateToProps = (state) => ({
   dispatch: state.dispatch,
+  dynamicList: state.HomeReducer.get('dynamicList'),
 });
 
 export default connect(mapStateToProps)(Dynamic);

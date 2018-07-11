@@ -1,5 +1,4 @@
 import { routerReducer } from 'react-router-redux';
-import * as rrr from 'react-router-redux';
 import { combineReducers } from 'redux';
 
 // 引入各reducers
