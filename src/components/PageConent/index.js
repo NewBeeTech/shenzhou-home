@@ -10,9 +10,7 @@ class PageConent extends Component  {
         <Pagination
           // itemRender={itemRender}
           onChange={(pageNum) => {
-            console.log('pageNum', pageNum)
-            console.log('pageNum', pageNum+1)
-            this.props.searchAction({}, pageNum+1)
+            this.props.searchAction(pageNum)
           }}
           total={this.props.total}
           pageSize={this.props.pageSize}

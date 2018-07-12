@@ -19,8 +19,8 @@ class DynamicContent extends Component {
   componentWillMount() {
     dispatch(HomeAction.dynamicList({ pageNum: 1, pageSize: 10 }))
   }
-  _searchAction(params: {}, current = 1) {
-    const localParams = { pageNum: current, pageSize: this.props.dynamicList.get('pageSize') }
+  _searchAction(pageNum) {
+    const localParams = { pageNum, pageSize: this.props.dynamicList.get('pageSize') }
     console.log(localParams)
     dispatch(HomeAction.dynamicList(localParams))
   };
@@ -87,7 +87,7 @@ class DynamicContent extends Component {
                current={this.props.dynamicList.get('pageNum')}
                total={this.props.dynamicList.get('total')}
                pageSize={this.props.dynamicList.get('pageSize')}
-               searchAction={() => this._searchAction()}
+               searchAction={(current) => this._searchAction(current)}
             />
           </div>
           <Modal
