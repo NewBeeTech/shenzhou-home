@@ -31,10 +31,9 @@ const defaultState =  Immutable.Map({
 
 const getDynamicListHandler = new ActionHandler.handleAction(HomeAction.DYNAMIC_LIST)
   .success((state, action) => {
-    console.log(action.data)
     return state.setIn(['dynamicList', 'list'], Immutable.fromJS(action.data.list))
-      .setIn(['dynamicList', 'total'], Immutable.fromJS(action.data.total))
-      .setIn(['dynamicList', 'pageNum'], Immutable.fromJS(action.data.pageNum))
+      .setIn(['dynamicList', 'total'], Immutable.fromJS(action.data.totalRow))
+      .setIn(['dynamicList', 'pageNum'], Immutable.fromJS(action.data.pageNumber))
       .set('isFetching', false).set('errMsg', '');
   });
 
