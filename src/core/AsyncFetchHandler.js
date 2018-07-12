@@ -21,7 +21,7 @@ const AsyncFetchHandler = (
       if (data.code == '200') {
         dispatch({
           type: FetchState.SUCCESS(actionName),
-          data: sideEffect(data.datas),
+          data: sideEffect(data.data),
         });
       } else {
         dispatch({
