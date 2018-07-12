@@ -17,7 +17,7 @@ class DynamicContent extends Component {
     visible: false
   }
   componentWillMount() {
-    dispatch(HomeAction.dynamicList({ pageNum: 1, PageSize: 10 }))
+    dispatch(HomeAction.dynamicList({ pageNum: 1, pageSize: 10 }))
   }
   _searchAction = (dispatch: Function) => (params: {}, current = 1) => {
     const localParams = Object.assign(params, { pageNum: current, pageSize: this.props.dynamicList.get('pageSize') });
