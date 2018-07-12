@@ -27,8 +27,9 @@
 .dynamic-modal-info {
     font-size: 1rem;
     color: #606F80;
-    line-height: 1.6rem;
+    line-height: 2rem;
     margin: 1vw 0;
+    text-indent: 2em;
     
 }
 
@@ -38,6 +39,7 @@
 
 .modal-content-img, .modal-content-img> img {
   width: 100%;
+  margin: 2rem 0;
 }
 
 
@@ -112,7 +114,12 @@
 
   .dynamic-item-img {
     width: 20%;
+    height: 15vh;
     border: 1px solid #000;
+  }
+  .dynamic-item-img > img {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -184,7 +191,11 @@
 
     .dynamic-item-img {
       width: 100%;
-      height: 25vw;
+      height: 20vh;
       border: 1px solid #000;
+    }
+    .dynamic-item-img > img {
+      width: 100%;
+      height: 100%;
     }
   }

@@ -17,12 +17,19 @@ class DynamicContent extends Component {
     visible: false
   }
   componentWillMount() {
-    // dispatch(HomeAction.dynamicList({ pageNum: 1, PageSize: 10 }))
+    dispatch(HomeAction.dynamicList({ pageNum: 1, PageSize: 10 }))
   }
   _searchAction = (dispatch: Function) => (params: {}, current = 1) => {
     const localParams = Object.assign(params, { pageNum: current, pageSize: this.props.dynamicList.get('pageSize') });
-    // dispatch(HomeAction.dynamicList(localParams))
+    dispatch(HomeAction.dynamicList(localParams))
   };
+  getContent(content) {
+    let value = '';
+    if (content) {
+      value = JSON.parse(content)[0].content
+    }
+    return value;
+  }
   showDynamicList(data) {
     const views = [];
     if(data) {
@@ -32,7 +39,7 @@ class DynamicContent extends Component {
              <div className="dynamic-item-date">{moment(item.get('time')).format('YYYY-MM')}<br/><span>{moment(item.get('time')).format('DD')}</span></div>
              <div className="dynamic-item-content">
                 <div className="dynamic-item-title">{item.get('title')}</div>
-                <div className="dynamic-item-info">{item.get('content')}</div>
+                <div className="dynamic-item-info">{this.getContent(item.get('content'))}</div>
                 <div className="dynamic-item-more"
                   onClick={() => {
                       this.setState({
@@ -42,10 +49,24 @@ class DynamicContent extends Component {
                   }}
                 >查看更多<img src={moreData} alt="" className="dynamic-item-more-img"/></div>
              </div>
-             <div className="dynamic-item-img"><img src={''} alt="" /></div>
+             <div className="dynamic-item-img"><img src={item.get('img')} alt="" /></div>
           </div>
         )
       })
+    }
+    return views;
+  }
+  showContent(data) {
+    console.log(data)
+    const views = [];
+    if (data) {
+      JSON.parse(data).map((item, key) => {
+         if(item.type === 1) {
+          views.push(<div className="dynamic-modal-info" key={key}>{item.content}</div>)
+         } else if(item.type === 3) {
+          views.push(<div className="modal-content-img" key={key}><img src={item.content} /></div>)
+         }
+      }) 
     }
     return views;
   }
@@ -81,20 +102,10 @@ class DynamicContent extends Component {
             style={{ top: 10 }}
           >
               <div className="modal-content">
-                <div className="dynamic-modal-title">公告详情公告详情公告详情公告详情公告详情</div>
+                <div className="dynamic-modal-title">{this.state.info && this.state.info.title}</div>
                 <div className="modal-content-info">
-                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
-                  <div className="modal-content-img"><img src={topImg} /></div>
-                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
-                  <div className="modal-content-img"><img src={topImg} /></div>
-                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
-                  <div className="modal-content-img"><img src={topImg} /></div>
-                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
-                  <div className="modal-content-img"><img src={topImg} /></div>
-                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
-                  <div className="modal-content-img"><img src={topImg} /></div>
-                  <div className="dynamic-modal-info">公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情公告详情</div>
-                  <div className="modal-content-img"><img src={topImg} /></div>
+                  {console.log(this.state.info)}
+                  {this.showContent(this.state.info && this.state.info.content)}
                 </div>
               </div>     
           </Modal>

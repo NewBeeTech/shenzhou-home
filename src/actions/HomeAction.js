@@ -30,17 +30,18 @@ export const leaveMsg = (params: Object, callBack) => (dispatch) => {
   AsyncFetchHandler(LEAVE_MSG, result, dispatch);
 };
 
-const dynamicListURL = `http://${window.location.host}`
+const dynamicListURL = `http://${window.location.host}/api/new/listNews`
 // 获取公告列表
 export const DYNAMIC_LIST = 'DYNAMIC_LIST';
 export const dynamicList = (params: Object) => (dispatch) => {
   const result = GET(dynamicListURL, params);
-  result.then(data => {
-    if (data.code == '200') {
-     
-    }
-  }).catch((err) => {
-    console.warn('网络请求失败 ', err);
-  });
+  // result.then(data => {
+  //   // console.log('data', data)
+  //   // if (data.code == '200') {
+       
+  //   // }
+  // }).catch((err) => {
+  //   console.warn('网络请求失败 ', err);
+  // });
   AsyncFetchHandler(DYNAMIC_LIST, result, dispatch);
 };
