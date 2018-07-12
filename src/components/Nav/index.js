@@ -76,8 +76,8 @@ const allCaseData =  [{
    const aboutusData = [ 
     { name: '企业文化', url: '/corporate-culture' },
     { name: '公司资质', url: '/about-us' },
-    // { name: '技术支持', url: '/technical-support' },
-    { name: '加入我们', url: '/join-us' }
+    { name: '加入我们', url: '/join-us' },
+    { name: '公司动态', url: '/dynamic' },
     ]
 
 

@@ -23,7 +23,8 @@ const rightList1 = [
   { content: '公司资质', url: '/about-us' },
   { content: '技术支持', url: '/technical-support' },
   { content: '联系我们', url: '/contact-us' },
-  { content: '加入我们', url: '/join-us' }
+  { content: '加入我们', url: '/join-us' },
+  { content: '公司动态', url: '/dynamic' },
 ]
 const rightList2 = [
   { content: 'MAXSim', url: '/max-sim' },
